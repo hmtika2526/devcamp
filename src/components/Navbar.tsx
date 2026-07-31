@@ -112,6 +112,7 @@ export default function Navbar() {
             name: 'LEARNING HUB',
             children: [
                 { name: 'MODULES', path: '/modules' },
+                { name: 'CLASS RECORDINGS', path: '/download' },
                 { name: 'MENTORING GROUPS', path: '/mentoring' },
                 { name: 'TASK SUBMISSION', path: '/assignment' },
             ]
