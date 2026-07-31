@@ -1,0 +1,44 @@
+[
+  {
+    "id": "res-1",
+    "title": "📘 Guide Book",
+    "description": "Panduan resmi peserta DevCamp yang berisi informasi program, ketentuan umum, hak dan kewajiban peserta, sistem penilaian, sertifikat, serta informasi penting lainnya.",
+    "buttonLabel": "📂 Buka Dokumen",
+    "fileUrl": "https://drive.google.com/file/d/example-guidebook/view"
+  },
+  {
+    "id": "res-2",
+    "title": "🛠 Technical Guide",
+    "description": "Petunjuk teknis pelaksanaan DevCamp yang mencakup persiapan perangkat, platform yang digunakan, mekanisme kelas, absensi, tugas, mini project, final project, serta tata tertib peserta.",
+    "buttonLabel": "📂 Buka Dokumen",
+    "fileUrl": "https://drive.google.com/file/d/example-techguide/view"
+  },
+  {
+    "id": "res-3",
+    "title": "🗓 Timeline DevCamp",
+    "description": "Timeline resmi pelaksanaan DevCamp yang berisi jadwal kegiatan, modul pembelajaran, deadline tugas, mini project, final project, hingga penutupan program.",
+    "buttonLabel": "📂 Buka Dokumen",
+    "fileUrl": "/timeline"
+  },
+  {
+    "id": "res-4",
+    "title": "📝 Template Abstrak",
+    "description": "Template resmi yang digunakan peserta untuk menyusun abstrak final project sesuai format DevCamp.",
+    "buttonLabel": "📂 Buka Template",
+    "fileUrl": "https://docs.google.com/document/d/example-template-abstract/edit"
+  },
+  {
+    "id": "res-5",
+    "title": "📊 Template Presentasi",
+    "description": "Template presentasi resmi yang digunakan saat sesi presentasi final project DevCamp.",
+    "buttonLabel": "📂 Buka Template",
+    "fileUrl": "https://docs.google.com/presentation/d/example-template-pitch/edit"
+  },
+  {
+    "id": "res-6",
+    "title": "🎨 Media & Assets",
+    "description": "Kumpulan aset resmi DevCamp seperti logo, banner, virtual background Zoom, dan media pendukung lainnya.",
+    "buttonLabel": "📂 Buka Folder",
+    "fileUrl": "https://drive.google.com/drive/folders/example-assets-folder"
+  }
+]

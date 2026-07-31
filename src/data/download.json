@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "name": "VIRTUAL BACKGROUND ZOOM",
+    "description": "VIRTUAL BACKGROUND ZOOM",
+    "url": "/download/virtual_background.png",
+    "status": "Download",
+    "category": "virtual"
+  },
+  {
+    "id": 2,
+    "name": "Modul 1: Modul UI/UX",
+    "description": "Modul ini memperkenalkan dasar-dasar ui ux termasuk prinsip desain, wireframing, dan prototyping.",
+    "url": "/download/modul/MODUL_BOOTCAMP_HMTIKA_UI%20UX.pdf",
+    "status": "Download",
+    "category": "Modul"
+  },
+  {
+    "id": 3,
+    "name": "Modul 2: Modul HTML",
+    "description": "Modul ini memperkenalkan dasar-dasar HTML, termasuk struktur dokumen, elemen, dan atribut.",
+    "url": "/download/modul/MODUL_BOOTCAMP_HMTIKA_HTML.pdf",
+    "status": "Download",
+    "category": "Modul"
+  },
+  {
+    "id": 4,
+    "name": "Modul 3: Modul CSS",
+    "description": "Modul ini memperkenalkan dasar-dasar css, termasuk selektor, properti, dan layout.",
+    "url": "/download/modul/MODUL_BOOTCAMP_HMTIKA_CSS.pdf",
+    "status": "Download",
+    "category": "Modul"
+  },
+  {
+    "id": 4,
+    "name": "On-Boarding : Rekaman On-Boarding 1 Agustus 2025",
+    "description": "-",
+    "url": "https://drive.google.com/file/d/1vJefzEmk_qVVe6hCg3-pcZtt8FAxvk1p/view?usp=drive_link",
+    "status": "View",
+    "category": "Rekaman"
+  },
+  {
+    "id": 5,
+    "name": "UI/UX : Materi PPTX",
+    "description": "-",
+    "url": "/download/modul/PPT UI UX.pptx",
+    "status": "Download",
+    "category": "Materi"
+  },
+  {
+    "id": 6,
+    "name": "UI/UX Day 1 : Rekaman Online Class 4 Agustus 2025",
+    "description": "-",
+    "url": "https://drive.google.com/file/d/1fAC1W8jfe8feoMgwLqiyG_Liu4hbaYsG/view?usp=drive_link",
+    "status": "View",
+    "category": "Rekaman"
+  },
+  {
+    "id": 7,
+    "name": "UI/UX Day 2 : Rekaman Online Class 5 Agustus 2025",
+    "description": "-",
+    "url": "https://drive.google.com/file/d/1gQt0_oxl8J8KRLQ63jVxC6r8jaaIZIQZ/view?usp=drive_link",
+    "status": "View",
+    "category": "Rekaman"
+  },
+  {
+    "id": 8,
+    "name": "HTML : Materi PPTX",
+    "description": "-",
+    "url": "https://docs.google.com/presentation/d/199z5Qbsn_FvsFnpIGyJK5qplRLh0Ldgc/export/pptx",
+    "status": "Download",
+    "category": "Materi"
+  },
+  {
+    "id": 9,
+    "name": "HTML Day 1 : Rekaman Online Class 11 Agustus 2025",
+    "description": "-",
+    "url": "https://drive.google.com/file/d/1urFr2X1ubKMAsFR_ZiqO11P3lSuZIEpC/view?usp=drive_link",
+    "status": "View",
+    "category": "Rekaman"
+  },
+  {
+    "id": 10,
+    "name": "HTML Day 2 : Rekaman Online Class 12 Agustus 2025",
+    "description": "-",
+    "url": "https://drive.google.com/file/d/1fm1alnMuIKUS6UMAJ_fakreIdjWw-lS-/view?usp=sharing",
+    "status": "View",
+    "category": "Rekaman"
+  },
+  {
+    "id": 11,
+    "name": "HTML Day 3 : Rekaman Online Class 13 Agustus 2025",
+    "description": "-",
+    "url": "https://drive.google.com/file/d/10HgYvhHviz7r5ysNqKPznFBT41qr7ZS7/view?usp=drive_link",
+    "status": "View",
+    "category": "Rekaman"
+  },
+  {
+    "id": 12,
+    "name": "CSS : Intro",
+    "description": "-",
+    "url": "https://drive.google.com/uc?export=download&id=1h3FZ1S1oN7ioH1qNuBxL4UJ5KepHwYnv",
+    "status": "Download",
+    "category": "Materi"
+  },
+  {
+    "id": 13,
+    "name": "CSS : Layout",
+    "description": "-",
+    "url": "https://drive.google.com/uc?export=download&id=1Oy9kVJMOWINv_IpqI8h6QZCMYmH_H5uI",
+    "status": "Download",
+    "category": "Materi"
+  },
+  {
+    "id": 14,
+    "name": "CSS Day 1 : Rekaman Online Class 18 Agustus 2025",
+    "description": "-",
+    "url": "https://drive.google.com/file/d/18MD4vabYxT6f4p3Se9uFYdpn9iEfLQhT/view?usp=sharing",
+    "status": "View",
+    "category": "Rekaman"
+  },
+  {
+    "id": 15,
+    "name": "CSS : Responsive",
+    "description": "-",
+    "url": "https://drive.google.com/uc?export=download&id=1rSAH2V8jJ0W5OGyCdfp9l0Um1IZjyz_o",
+    "status": "Download",
+    "category": "Materi"
+  },
+  {
+    "id": 16,
+    "name": "CSS Day 2 : Rekaman Online Class 19 Agustus 2025",
+    "description": "-",
+    "url": "https://drive.google.com/file/d/1ACbXlo4TftoC6MzaIKcR-Q4xQ5TLs9kB/view?usp=sharing",
+    "status": "View",
+    "category": "Rekaman"
+  },
+  {
+    "id": 17,
+    "name": "CSS Day 3 : Rekaman Online Class 20 Agustus 2025",
+    "description": "-",
+    "url": "https://drive.google.com/file/d/1NaTBw_vEaJRkhqKZyXwdlkpPixSldiI0/view?usp=sharing",
+    "status": "View",
+    "category": "Rekaman"
+  },
+  {
+    "id": 18,
+    "name": "CSS : Animasi",
+    "description": "-",
+    "url": "https://drive.google.com/uc?export=download&id=12JzjYRQPh6Un04GpkVR6EpdVeXCPRdqd",
+    "status": "Download",
+    "category": "Materi"
+  },
+  {
+    "id": 19,
+    "name": "CSS Day 4 : Rekaman Online Class 21 Agustus 2025",
+    "description": "-",
+    "url": "https://drive.google.com/file/d/1Ln_uSw5QwL24bRiQq5NEVhejTOxk9vgx/view?usp=sharing",
+    "status": "View",
+    "category": "Rekaman"
+  },
+  {
+    "id": 20,
+    "name": "Deployment",
+    "description": "-",
+    "url": "https://drive.google.com/uc?export=download&id=1RYwtTRwpwUBNhyOFqAUqYocNtPHwHdCU",
+    "status": "Download",
+    "category": "Materi"
+  },
+  {
+    "id": 20,
+    "name": "Deployment : Rekaman Online Class 22 Agustus 2025",
+    "description": "-",
+    "url": "https://drive.google.com/file/d/1mf8Eh0oZcibAJTRnhl_G4QzZ93vFcBrs/view?usp=sharing",
+    "status": "View",
+    "category": "Rekaman"
+  },
+  {
+    "id": 21,
+    "name": "Capstone Briefing : Rekaman Online Class 25 Agustus 2025",
+    "description": "-",
+    "url": "https://drive.google.com/file/d/1H1IFI3eeIpcL2FyS1dDlnrDnjAGYjqKb/view?usp=sharing",
+    "status": "View",
+    "category": "Rekaman"
+  }
+]

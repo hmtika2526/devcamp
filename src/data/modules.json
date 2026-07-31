@@ -1,0 +1,25 @@
+{
+  "title": "📚 Learning Modules",
+  "description": "Seluruh materi pembelajaran DevCamp tersedia pada halaman ini.",
+  "note": "Klik tombol modul di bawah untuk mengakses dokumen materi pembelajaran, slide presentasi, serta referensi lengkap untuk setiap modul.",
+  "modules": [
+    {
+      "id": "mod-1",
+      "name": "Modul 1 – UI/UX Design dengan Figma",
+      "buttonLabel": "📘 Akses Modul 1",
+      "url": "https://docs.google.com/document/d/1LGvPsiiZ8_v_6GYidDc4PCFryQvgpRoR/edit?usp=sharing&ouid=109895538476905398633&rtpof=true&sd=true"
+    },
+    {
+      "id": "mod-2",
+      "name": "Modul 2 – HTML Dasar",
+      "buttonLabel": "📘 Akses Modul 2",
+      "url": "https://docs.google.com/document/d/169MdusPyn1Wz8INMc7CZ-abKB2sHbEyz/edit?usp=sharing&ouid=109895538476905398633&rtpof=true&sd=true"
+    },
+    {
+      "id": "mod-3",
+      "name": "Modul 3 – CSS, Responsive Web Design, Tailwind CSS & Deployment",
+      "buttonLabel": "📘 Akses Modul 3",
+      "url": "https://docs.google.com/document/d/1FW_BOhuuHGRKb9Try_dY1P1hPyVA5Qgt/edit?usp=sharing&ouid=109895538476905398633&rtpof=true&sd=true"
+    }
+  ]
+}

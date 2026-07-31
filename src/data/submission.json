@@ -1,0 +1,248 @@
+[
+  {
+    "id": 1,
+    "name": "Submission-UI/UX-Design",
+    "status": "End Of Submission",
+    "title": "📝 Submission Tugas UI/UX Design",
+    "desc": "Sebagai bagian dari program Devcamp UI/UX Design, peserta diminta untuk menyelesaikan tugas akhir modul berupa desain antarmuka website. Tugas ini bertujuan untuk melatih kreativitas, penerapan prinsip UI/UX, dan kemampuan menggunakan tools desain.",
+    "tema_desain": [
+      {
+        "judul": "To Do List Web App",
+        "deskripsi": "Aplikasi untuk mengatur daftar tugas harian.",
+        "struktur_halaman": [
+          "Login",
+          "Dashboard",
+          "Detail Task"
+        ]
+      },
+      {
+        "judul": "E-Commerce Website",
+        "deskripsi": "Toko online untuk menjual produk secara digital.",
+        "struktur_halaman": [
+          "Homepage",
+          "Produk",
+          "Checkout"
+        ]
+      },
+      {
+        "judul": "Personal Portfolio Website",
+        "deskripsi": "Website portofolio untuk menampilkan karya atau profil pribadi.",
+        "struktur_halaman": [
+          "Homepage",
+          "Project",
+          "Kontak"
+        ]
+      }
+    ],
+    "ketentuan_desain": {
+      "jumlah_halaman_minimal": 3,
+      "tool_desain": "Bebas (disarankan menggunakan Figma)",
+      "prinsip_uiux": "Harus mencerminkan prinsip UI/UX yang baik",
+      "orisinilitas": "Desain orisinil dan tidak menjiplak"
+    },
+    "pengumpulan": {
+      "wajib": [
+        "Link desain (Figma, Canva, dst)"
+      ],
+      "opsional": [
+        "Export PDF",
+        "Export PNG",
+        "Export JPG"
+      ],
+      "deskripsi": [
+        "Alasan memilih tema",
+        "Target pengguna atau tujuan desain"
+      ],
+      "format": {
+        "nama": "[Nama Kamu]",
+        "tema": "[To Do List / E-Commerce / Portofolio]",
+        "link_desain": "[URL Figma / lainnya]",
+        "deskripsi": "[1 paragraf singkat]"
+      }
+    },
+    "deadline": {
+      "tanggal": "Minggu, 10 Agustus 2025",
+      "waktu": "Pukul 23.59 WIB"
+    },
+    "kriteria_penilaian": [
+      "Kesesuaian tema & struktur halaman",
+      "Konsistensi visual (warna, layout, typografi)",
+      "Penerapan prinsip UX",
+      "Kreativitas dan originalitas desain"
+    ],
+    "catatan": "Pastikan file sudah lengkap dan submit tepat waktu. Submission yang terlambat tidak akan dinilai.",
+    "reward": "10 desain terbaik dapat hadiah canva pro team",
+    "kontak": "Jika ada pertanyaan atau kendala, silakan hubungi mentor.",
+    "motivasi": "💡 Selamat mendesain dan tunjukkan hasil terbaikmu!",
+    "submissionUrl": "https://forms.gle/MYw7EcVicGoMtfwF8"
+  },
+  {
+    "id": 2,
+    "name": "Submission-HTML-My-Profile",
+    "status": "End Of Submission",
+    "title": "📝 Submission Tugas HTML",
+    "tujuan": "Peserta membuat satu halaman profil sederhana menggunakan HTML yang memuat seluruh elemen yang dipelajari di bootcamp (Hari 1–3).",
+    "ketentuan_teknis": {
+      "utama": "index.html",
+      "folder_gambar": "assets/",
+      "contoh": "assets/foto.jpg"
+    },
+    "wajib_ada": [
+      "Heading: minimal <h1> dan satu di antara <h2>–<h6>",
+      "Paragraf: <p> untuk deskripsi/bio singkat",
+      "Link: <a> ke media sosial",
+      "Gambar: <img> dengan alt yang jelas",
+      "List: <ul>/<ol> untuk skills/hobi",
+      "Tabel: <table> untuk riwayat pendidikan/proyek",
+      "Form: <form> untuk “Contact Me” (min. input, textarea, dan button)",
+      "Komentar: gunakan <!-- komentar --> minimal sekali"
+    ],
+    "opsional": [
+      "Title yang relevan di <head>",
+      "Atribut penting (alt, href, target, required pada input tertentu)"
+    ],
+    "kriteria_penilaian_html": [
+      {
+        "judul": "Ketepatan Struktur HTML",
+        "poin": 20,
+        "rincian": [
+          "Doctype, struktur dasar <html>, <head>, <body>, penulisan tag berpasangan benar."
+        ]
+      },
+      {
+        "judul": "Kelengkapan Elemen Wajib",
+        "poin": 35,
+        "rincian": [
+          "Semua 7 elemen wajib ada & berfungsi."
+        ]
+      },
+      {
+        "judul": "Kerapian & Keterbacaan",
+        "poin": 15,
+        "rincian": [
+          "Indentasi rapi, komentar seperlunya, penamaan file/gambar jelas."
+        ]
+      },
+      {
+        "judul": "Konten Relevan",
+        "poin": 10,
+        "rincian": [
+          "Bio, skill, pendidikan, dan link sesuai konteks profil."
+        ]
+      },
+      {
+        "judul": "Aksesibilitas Dasar",
+        "poin": 10,
+        "rincian": [
+          "alt pada gambar, label input jelas, placeholder tidak menggantikan label."
+        ]
+      },
+      {
+        "judul": "Presentasi/Preview",
+        "poin": 10,
+        "rincian": [
+          "Tidak ada error di browser; link & form bisa diklik/digunakan."
+        ]
+      }
+    ],
+    "cara_pengumpulan": {
+      "nama_file": "NAMA_index.html",
+      "contoh": "alfi_index.html",
+      "zip": "Jika pakai gambar: kirim folder zip: nama_submissionhtml.zip berisi index.html + folder assets/",
+      "link": "bit.ly/submissionbc25"
+    },
+    "deadline": {
+      "tanggal": "Minggu, 17 Agustus 2025",
+      "waktu": "Pukul 23.59 WIB"
+    },
+    "catatan": "Pastikan file bisa dibuka di browser tanpa error.",
+    "kontak": "Jika ada pertanyaan, hubungi mentor.",
+    "motivasi": "💡 Selamat berkarya, keep it simple & semantic!",
+    "submissionUrl": "https://bit.ly/submissionbc25"
+  },
+  {
+    "id": 3,
+    "name": "capstone-submission",
+    "status": "End Of Submission",
+    "title": "🚀 CAPSTONE SUBMISSION",
+    "desc": "Capstone Submission adalah tugas akhir berupa pembuatan sebuah proyek website sesuai tema yang dipilih (To Do List, E-Commerce, atau Portfolio). Proyek ini bertujuan untuk menguji kemampuan peserta dalam mengimplementasikan konsep HTML, CSS, serta praktik deployment agar website dapat diakses secara online. Peserta dituntut untuk menghasilkan karya yang rapi, fungsional, menarik, dan sesuai prinsip UI/UX.",
+    "tujuan": "Memberikan kesempatan kepada peserta untuk mengasah keterampilan teknis dalam membangun website dari awal hingga publikasi, melatih kemandirian, kedisiplinan, serta kemampuan presentasi proyek. Melalui capstone ini, peserta diharapkan mampu menunjukkan pemahaman menyeluruh tentang pengembangan web sekaligus menghasilkan portofolio nyata yang dapat digunakan untuk keperluan akademik maupun profesional.",
+    "tema_desain": [
+      {
+        "judul": "To Do List Web App",
+        "deskripsi": "Aplikasi untuk mengatur daftar tugas harian.",
+        "struktur_halaman": ["Login", "Dashboard", "Detail Task"]
+      },
+      {
+        "judul": "E-Commerce Website",
+        "deskripsi": "Toko online untuk menjual produk secara digital.",
+        "struktur_halaman": ["Homepage", "Produk", "Checkout"]
+      },
+      {
+        "judul": "Personal Portfolio Website",
+        "deskripsi": "Website portofolio untuk menampilkan karya atau profil pribadi.",
+        "struktur_halaman": ["Homepage", "Project", "Kontak"]
+      }
+    ],
+    "kriteria_penilaian": [
+      "DI Hosting",
+      "Menarik",
+      "Fungsionalitas",
+      "Menerapkan Prinsip Design UI",
+      "Bisa Menjelaskan Project"
+    ],
+    "distinction": {
+      "keaktifan": "40%",
+      "kedisiplinan": "30%",
+      "attitude": "30%"
+    },
+    "ketentuan_teknis": {
+      "html": [
+        "Struktur html jelas",
+        "Penggunaan tag sesuai dengan fungsinya",
+        "Penulisan rapi"
+      ],
+      "css": [
+        "Peserta diperbolehkan menggunakan metode CSS Native (css biasa atau murni) maupun Framework CSS (seperti Tailwind, Bootstrap, dll).",
+        "Tools yang digunakan bebas, sesuai kenyamanan masing-masing."
+      ],
+      "deployment": [
+        "Bisa di hosting gratis menggunakan Vercel",
+        "Bisa diakses melalui URL"
+      ]
+    },
+    "pengumpulan": {
+      "wajib": [
+        "Peserta cukup mengirimkan url repositori GitHub dan alamat url Website.",
+        "URL repositori GitHub (public), contoh: https://github.com/affalcraft/affalcraft.github.io.git",
+        "Alamat URL website hasil deploy, contoh: https://affalcraft-github-io.vercel.app/"
+      ],
+      "catatan": "Pastikan repository public (bukan private)."
+    },
+    "tips": {
+      "clean_code": [
+        "Menggunakan formatting yang rapi dan readable.",
+        "Penamaan class dan id sesuai dengan isi konten. contoh: class='contact' digunakan untuk isi content kontak",
+        "Simpan semua kode CSS di satu tempat agar tidak tersebar di banyak file.",
+        "Jika menggunakan internal CSS, pastikan semua style berada di satu tempat (misalnya di <head>) dan digunakan secara konsisten di semua halaman."
+      ],
+      "struktur_direktori": [
+        "CSS eksternal diletakkan di folder: /assets/css",
+        "Gambar-gambar ditempatkan di: /assets/images"
+      ],
+      "responsive": "Tampilan usahakan sesuai Ketika dibuka di HP maupun di Labtop",
+      "framework_library": [
+        "Framework CSS seperti Tailwind, Bootstrap, dll dapat diunduh atau digunakan melalui CDN.",
+        "Library animasi seperti AOS, GSAP, dll boleh digunakan, namun tidak diwajibkan. (opsional)"
+      ]
+    },
+    "deadline": {
+      "tanggal": "30 Agustus 2025",
+      "waktu": "23:59 WIB"
+    },
+    "catatan": "Pastikan repository public, URL deploy bisa diakses, dan submit tepat waktu.",
+    "kontak": "Jika ada pertanyaan, hubungi mentor.",
+    "motivasi": "💡 From Idea to Interface #DesignIt,CodeIt,LaunchIt",
+    "submissionUrl": "https://forms.gle/Ki4goVpM3PyZnNMA6"
+  }
+]

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://devcamp.hmtika.web.id
+
+# Sitemaps
+Sitemap: https://devcamp.hmtika.web.id/sitemap.xml

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ann-1",
+    "title": "Jadwal Kelas Online DevCamp & Link Zoom",
+    "category": "Jadwal Kelas",
+    "date": "2025-08-01",
+    "important": true,
+    "content": "Sesi kelas online DevCamp akan dilaksanakan setiap Sabtu & Minggu pukul 09.00 - 12.00 WIB. Harap hadir 10 menit sebelum kelas dimulai.",
+    "actionUrl": "https://zoom.us/j/example-devcamp",
+    "actionLabel": "Gabung Zoom Class"
+  },
+  {
+    "id": "ann-2",
+    "title": "Pengumuman & Timeline Mini Project 1",
+    "category": "Mini Project",
+    "date": "2025-08-05",
+    "important": true,
+    "content": "Instruksi dan pengerjaan Mini Project 1 (Slicing HTML & Vanilla CSS) telah dibuka. Silakan kerjakan sebelum batas waktu pengumpulan.",
+    "actionUrl": "/assignment",
+    "actionLabel": "Lihat Detail Tugas"
+  },
+  {
+    "id": "ann-3",
+    "title": "Pengumpulan Final Capstone Project & Abstrak",
+    "category": "Final Project",
+    "date": "2025-08-20",
+    "important": false,
+    "content": "Batas pengumpulan Final Capstone Project beserta Abstrak karya dilakukan melalui portal Assignment paling lambat tanggal 25 Agustus 2025 pukul 23:59 WIB.",
+    "actionUrl": "/assignment",
+    "actionLabel": "Submit Final Project"
+  },
+  {
+    "id": "ann-4",
+    "title": "Pengumuman Graduation & Best Participant DevCamp",
+    "category": "Graduation",
+    "date": "2025-08-30",
+    "important": false,
+    "content": "Acara penutupan, pengumuman Best Participant, dan penyerahan Reward akan dilaksanakan secara hybrid pada Closing Ceremony.",
+    "actionUrl": "/reward",
+    "actionLabel": "Lihat Best Project"
+  }
+]

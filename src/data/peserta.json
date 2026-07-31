@@ -1,0 +1,101 @@
+[
+    {
+        "id": "1",
+        "name": "KELOMPOK 1",
+        "mentor": "Rasyid Naufal",
+        "mentor-image": "/assets/images/mentor/mentor_rasyid.webp",
+        "members": [
+            { "name": "Septa Shasy Ramadani", "no_peserta": "" },
+            { "name": "Nurul Hikmah", "no_peserta": "" },
+            { "name": "Wike Nurhidayah", "no_peserta": "" },
+            { "name": "Gilang Nur Ikhsan", "no_peserta": "" },
+            { "name": "Dhea Olga Amelia", "no_peserta": "" },
+            { "name": "Akbar Saefullah", "no_peserta": "" },
+            { "name": "Iqbal Fathu R", "no_peserta": "" },
+            { "name": "Fakhri Nur H", "no_peserta": "" },
+            { "name": "Ahnaf Dafa N", "no_peserta": "" },
+            { "name": "M Bima Ar Rozaq", "no_peserta": "" },
+            { "name": "Zahra Nurul Fitriah", "no_peserta": "" },
+            { "name": "Erlunsya Rizqi", "no_peserta": "" }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "KELOMPOK 2",
+        "mentor": "Wagimin",
+        "mentor-image": "/assets/images/mentor/mentor_wagimin.webp",
+        "members": [
+            { "name": "Irna Sofiyawati", "no_peserta": "" },
+            { "name": "Abdul Ghozin", "no_peserta": "" },
+            { "name": "Alya Shafa D", "no_peserta": "" },
+            { "name": "Ahmad Yogi F", "no_peserta": "" },
+            { "name": "Dian Septiani", "no_peserta": "" },
+            { "name": "Risevara Gumitang", "no_peserta": "" },
+            { "name": "Calisa Lutfikarimah", "no_peserta": "" },
+            { "name": "Zaenul Mutakin", "no_peserta": "" },
+            { "name": "Bela Safitri", "no_peserta": "" },
+            { "name": "Haydar Ali Aji", "no_peserta": "" },
+            { "name": "Ayu Setiawati", "no_peserta": "" },
+            { "name": "Muhammad Ghufron Asy Syifaa", "no_peserta": "" }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "KELOMPOK 3",
+        "mentor": "Khafid Ilhan Almanjiz",
+        "mentor-image": "/assets/images/mentor/mentor_khafid.webp",
+        "members": [
+            { "name": "Habib Ali Musthofa", "no_peserta": "" },
+            { "name": "Abde Rachmanzah", "no_peserta": "" },
+            { "name": "Nisa Septiani", "no_peserta": "" },
+            { "name": "Darmayani Neni", "no_peserta": "" },
+            { "name": "Siti Nurrohmah", "no_peserta": "" },
+            { "name": "Desti Alfia P", "no_peserta": "" },
+            { "name": "Afriza Nur Faid", "no_peserta": "" },
+            { "name": "Umi Hani I", "no_peserta": "" },
+            { "name": "Sefa Wahyu S", "no_peserta": "" },
+            { "name": "Deamby Althaf", "no_peserta": "" },
+            { "name": "Iqbal Nur Filardi", "no_peserta": "" },
+            { "name": "Siti Nur Fauziah", "no_peserta": "" }
+        ]
+    },
+    {
+        "id": "4b",
+        "name": "KELOMPOK 4",
+        "mentor": "Yayan Multasa'ali",
+        "mentor-image": "/assets/images/mentor/mentor_mus.webp",
+        "members": [
+            { "name": "Ade Bagus Satrio", "no_peserta": "" },
+            { "name": "Fajar Nurullah", "no_peserta": "" },
+            { "name": "Rifai Sahrul A", "no_peserta": "" },
+            { "name": "Dhea Voni", "no_peserta": "" },
+            { "name": "Septia Endarti", "no_peserta": "" },
+            { "name": "Alvina Dwi Rahayu", "no_peserta": "" },
+            { "name": "Rohmah Fitriyani", "no_peserta": "" },
+            { "name": "Mirza Aulia", "no_peserta": "" },
+            { "name": "M Adi Hijatul M", "no_peserta": "" },
+            { "name": "Nabila Refa Hidayati", "no_peserta": "" },
+            { "name": "Rafa Aurellia", "no_peserta": "" },
+            { "name": "Miftah Dwi Yulianingsih", "no_peserta": "" }
+        ]
+    },
+    {
+        "id": "5",
+        "name": "KELOMPOK 5",
+        "mentor": "Ramdan",
+        "mentor-image": "/assets/images/mentor/mentor_adil.webp",
+        "members": [
+            { "name": "Kevin David Afrila", "no_peserta": "" },
+            { "name": "Rizki Ngafifudin", "no_peserta": "" },
+            { "name": "Davina Ramadhani", "no_peserta": "" },
+            { "name": "Arifin Ilham", "no_peserta": "" },
+            { "name": "Awan Shafiq F", "no_peserta": "" },
+            { "name": "Nanda Aditya L", "no_peserta": "" },
+            { "name": "Rafi Assidiq", "no_peserta": "" },
+            { "name": "Lita Dwi I", "no_peserta": "" },
+            { "name": "Sri Dwi Cahyanti", "no_peserta": "" },
+            { "name": "Wiwit Setya Ningsih", "no_peserta": "" },
+            { "name": "Fisafangati Rochmah", "no_peserta": "" }
+        ]
+    }
+]

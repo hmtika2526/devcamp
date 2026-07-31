@@ -1,0 +1,30 @@
+[
+  {
+    "id": "quiz-1",
+    "moduleTitle": "Quiz Modul 1: Dasar HTML5 & Semantik",
+    "description": "Uji pemahaman Anda mengenai struktur dasar HTML5, penggunaan tag semantik, dan hirarki dokumen web.",
+    "questionsCount": 10,
+    "quizizzUrl": "https://quizizz.com/join?gc=example-quiz-1"
+  },
+  {
+    "id": "quiz-2",
+    "moduleTitle": "Quiz Modul 2: CSS Layouts & Animation",
+    "description": "Evaluasi pemahaman tentang Flexbox, CSS Grid, serta pembuatan Keyframe animations.",
+    "questionsCount": 10,
+    "quizizzUrl": "https://quizizz.com/join?gc=example-quiz-2"
+  },
+  {
+    "id": "quiz-3",
+    "moduleTitle": "Quiz Modul 3: JavaScript & Asynchronous API",
+    "description": "Kuis singkat seputar array methods, ES6, Promises, Async/Await, dan manipulasi DOM.",
+    "questionsCount": 15,
+    "quizizzUrl": "https://quizizz.com/join?gc=example-quiz-3"
+  },
+  {
+    "id": "quiz-4",
+    "moduleTitle": "Quiz Modul 4: Next.js & Deployment",
+    "description": "Uji pengetahuan seputar arsitektur Next.js App Router dan teknik deployment web.",
+    "questionsCount": 10,
+    "quizizzUrl": "https://quizizz.com/join?gc=example-quiz-4"
+  }
+]

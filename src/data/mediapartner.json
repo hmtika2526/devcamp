@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "name": "STIMIK Tunas Bangsa",
+        "url": "https://www.instagram.com/stimik.tunasbangsa/",
+        "image": "/assets/images/media-partner/stimik_tunasbangsa.webp"
+    },
+    {
+        "id": 2,
+        "name": "STIT USA Banjarnegara",
+        "url": "https://www.instagram.com/stitusa.banjarnegara/",
+        "image": "/assets/images/media-partner/stitusa.webp"
+    },
+    {
+        "id": 3,
+        "name": "Prodi Informatika",
+        "url": "https://www.instagram.com/informatika.stimik/",
+        "image": "/assets/images/media-partner/prodi_informatika.webp"
+    },
+    {
+        "id": 4,
+        "name": "BEM STIMIK Tunas Bangsa",
+        "url": "https://www.instagram.com/bem_stb/",
+        "image": "/assets/images/media-partner/bem_stb.webp"
+    },
+    {
+        "id": 5,
+        "name": "BEM STIT Tunas Bangsa",
+        "url": "https://www.instagram.com/bem_stittunasbangsa/",
+        "image": "/assets/images/media-partner/bem_stittunasbangsa.webp"
+    },
+    {
+        "id": 6,
+        "name": "BEM STIE Tamabara",
+        "url": "https://www.instagram.com/bemstietambara/",
+        "image": "/assets/images/media-partner/bem_stietambara.webp"
+    },
+    {
+        "id": 7,
+        "name": "BEM Polibara",
+        "url": "https://www.instagram.com/bem_polibara/",
+        "image": "/assets/images/media-partner/bem_polibara.webp"
+    },
+    {
+        "id": 8,
+        "name": "HIMASI",
+        "url": "https://www.instagram.com/himasi_tb/",
+        "image": "/assets/images/media-partner/himasi_tb.webp"
+    },
+    {
+        "id": 9,
+        "name": "HMM STIE Tamabara",
+        "url": "https://www.instagram.com/hmm_stietambara/",
+        "image": "/assets/images/media-partner/hmm_stietambara.webp"
+    },
+    {
+        "id": 10,
+        "name": "HIMAGRO Polibara",
+        "url": "https://www.instagram.com/himagro_polibara/",
+        "image": "/assets/images/media-partner/himagro_polibara.webp"
+    },
+    {
+        "id": 11,
+        "name": "HMPS Informatika UIN PKL",
+        "url": "https://www.instagram.com/hmpsinformatika.uinpkl/",
+        "image": "/assets/images/media-partner/hmps_uinpkl.webp"
+    },
+    {
+        "id": 12,
+        "name": "KSR STIMIK Tunas Bangsa",
+        "url": "https://www.instagram.com/ksr.stimiktunasbangsa/",
+        "image": "/assets/images/media-partner/ksr_tunasbangsa.webp"
+    },
+    {
+        "id": 13,
+        "name": "Info STB",
+        "url": "https://www.instagram.com/inf.stb/",
+        "image": "/assets/images/media-partner/inf_stb.webp"
+    },
+    {
+        "id": 14,
+        "name": "STB IT",
+        "url": "https://www.instagram.com/stb.it/",
+        "image": "/assets/images/media-partner/stb_it.webp"
+    },
+    {
+        "id": 15,
+        "name": "SI1 STB",
+        "url": "https://www.instagram.com/si1.stb/",
+        "image": "/assets/images/media-partner/si1_stb.webp"
+    },
+    {
+        "id": 16,
+        "name": "InCare Sistem Informasi",
+        "url": "https://www.instagram.com/incare.si/",
+        "image": "/assets/images/media-partner/incare_si.webp"
+    },
+    {
+        "id": 17,
+        "name": "SenzTech",
+        "url": "https://www.instagram.com/senztech/",
+        "image": "/assets/images/media-partner/senztech.webp"
+    },
+    {
+        "id": 18,
+        "name": "PMII Dipayuda",
+        "url": "https://www.instagram.com/pmiidipayuda/",
+        "image": "/assets/images/media-partner/pmii_dipayuda.webp"
+    },
+    {
+        "id": 19,
+        "name": "Narasi Bangsaa",
+        "url": "https://www.instagram.com/narasi_bangsaa/",
+        "image": "/assets/images/media-partner/narasi_bangsaa.webp"
+    },
+    {
+        "id": 20,
+        "name": "Artasy Chicken",
+        "url": "https://www.instagram.com/artasychicken/",
+        "image": "/assets/images/media-partner/artasychicken.webp"
+    },
+    {
+        "id": 21,
+        "name": "HMA STIE TAMBARA",
+        "url": "https://www.instagram.com/hma_stietambara/",
+        "image": "/assets/images/media-partner/hma_stietambara.jpg"
+    }
+]

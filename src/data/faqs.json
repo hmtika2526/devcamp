@@ -1,0 +1,27 @@
+[
+  {
+    "id": "faq-1",
+    "question": "Apakah acara DevCamp ini gratis dan mendapat sertifikat?",
+    "answer": "Ya, seluruh rangkaian acara DevCamp dapat diikuti oleh peserta yang terdaftar dan peserta yang memenuhi kriteria presensi serta kelulusan tugas akan mendapatkan e-sertifikat resmi."
+  },
+  {
+    "id": "faq-2",
+    "question": "Apakah pemula tanpa latar belakang coding bisa mengikuti kelas ini?",
+    "answer": "Tentu saja! Kurikulum DevCamp dirancang bertahap dari pemahaman dasar HTML, CSS, JavaScript hingga framework modern Next.js."
+  },
+  {
+    "id": "faq-3",
+    "question": "Bagaimana jika saya berhalangan hadir pada sesi kelas online Zoom?",
+    "answer": "Setiap sesi kelas direkam. Rekaman (Recording) dan slide materi dapat diakses pada halaman Modules di portal ini."
+  },
+  {
+    "id": "faq-4",
+    "question": "Di mana saya harus mengumpulkan Mini Project dan Final Project?",
+    "answer": "Seluruh tugas dikumpulkan melalui menu Assignment pada portal ini dengan mengklik tombol 'Submit Assignment'."
+  },
+  {
+    "id": "faq-5",
+    "question": "Bagaimana cara klaim e-sertifikat setelah event berakhir?",
+    "answer": "E-sertifikat dapat dicari dan diunduh langsung melalui menu Sertifikat dengan menginput nama peserta."
+  }
+]

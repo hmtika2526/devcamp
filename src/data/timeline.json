@@ -1,0 +1,89 @@
+[
+  {
+    "id": "1",
+    "name": "Pendaftaran",
+    "time-start": "2025-07-01T00:00:00",
+    "time-end": "2025-07-30T23:59:00"
+  },
+  {
+    "id": "2",
+    "name": "Onboarding",
+    "time-start": "2025-08-01T00:00:00"
+  },
+  {
+    "id": "3",
+    "name": "Online Session 1 – UI/UX Design dengan Figma",
+    "time-start": "2025-08-03T00:00:00"
+  },
+  {
+    "id": "4",
+    "name": "Hands On UI/UX",
+    "time-start": "2025-08-04T00:00:00"
+  },
+  {
+    "id": "5",
+    "name": "Hands On UI/UX",
+    "time-start": "2025-08-05T00:00:00"
+  },
+  {
+    "id": "6",
+    "name": "Deadline Mini Project 1",
+    "time-start": "2025-08-09T00:00:00"
+  },
+  {
+    "id": "7",
+    "name": "Online Session 2 – HTML Dasar",
+    "time-start": "2025-08-10T00:00:00"
+  },
+  {
+    "id": "8",
+    "name": "Hands On HTML",
+    "time-start": "2025-08-11T00:00:00"
+  },
+  {
+    "id": "9",
+    "name": "Hands On HTML",
+    "time-start": "2025-08-12T00:00:00"
+  },
+  {
+    "id": "10",
+    "name": "Deadline Mini Project 2",
+    "time-start": "2025-08-16T00:00:00"
+  },
+  {
+    "id": "11",
+    "name": "Online Session 3 – CSS, Responsive Web Design, Tailwind CSS & Deployment",
+    "time-start": "2025-08-17T00:00:00"
+  },
+  {
+    "id": "12",
+    "name": "Hands On CSS, Responsive Web Design & Tailwind CSS",
+    "time-start": "2025-08-18T00:00:00"
+  },
+  {
+    "id": "13",
+    "name": "Hands On Deployment",
+    "time-start": "2025-08-19T00:00:00"
+  },
+  {
+    "id": "14",
+    "name": "Final Project Briefing",
+    "time-start": "2025-08-21T00:00:00"
+  },
+  {
+    "id": "15",
+    "name": "Final Project",
+    "time-start": "2025-08-24T00:00:00",
+    "time-end": "2025-08-30T23:59:00"
+  },
+  {
+    "id": "16",
+    "name": "Deadline Final Project",
+    "time-start": "2025-08-30T00:00:00"
+  },
+  {
+    "id": "17",
+    "name": "Presentasi Final Project",
+    "time-start": "2025-08-31T00:00:00"
+  }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1",
+        "name": "KELOMPOK 1",
+        "mentor": "LOCKED 🔒",
+        "mentor-image": "/assets/images/unknown.png",
+        "members": [
+            { "no_peserta": "LOCKED 🔒", "name": "LOCKED 🔒" }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "KELOMPOK 2",
+        "mentor": "LOCKED 🔒",
+        "mentor-image": "/assets/images/unknown.png",
+        "members": [
+            { "no_peserta": "LOCKED 🔒", "name": "LOCKED 🔒" }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "KELOMPOK 3",
+        "mentor": "LOCKED 🔒",
+        "mentor-image": "/assets/images/unknown.png",
+        "members": [
+            { "no_peserta": "LOCKED 🔒", "name": "LOCKED 🔒" }
+        ]
+    },
+    {
+        "id": "4b",
+        "name": "KELOMPOK 4",
+        "mentor": "LOCKED 🔒",
+        "mentor-image": "/assets/images/unknown.png",
+        "members": [
+            { "no_peserta": "LOCKED 🔒", "name": "LOCKED 🔒" }
+        ]
+    },
+    {
+        "id": "5",
+        "name": "KELOMPOK 5",
+        "mentor": "LOCKED 🔒",
+        "mentor-image": "/assets/images/unknown.png",
+        "members": [
+            { "no_peserta": "LOCKED 🔒", "name": "LOCKED 🔒" }
+        ]
+    }
+]

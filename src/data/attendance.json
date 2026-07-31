@@ -1,0 +1,20 @@
+[
+  {
+    "id": "att-1",
+    "title": "Absensi Sesi Pertama (Awal Kelas)",
+    "session": "Presensi Awal",
+    "description": "Presensi wajib diisi pada 15 menit awal sebelum materi dimulai. Dipastikan mengisi data diri sesuai yang terdaftar.",
+    "status": "OPEN",
+    "deadline": "Pukul 09.30 WIB",
+    "formUrl": "https://docs.google.com/forms/d/e/example-absensi-1/viewform"
+  },
+  {
+    "id": "att-2",
+    "title": "Absensi Sesi Kedua (Akhir Kelas)",
+    "session": "Presensi Akhir",
+    "description": "Presensi akhir dilakukan setelah sesi tanya jawab dan penutupan materi. Termasuk di dalamnya feedback kelas.",
+    "status": "OPEN",
+    "deadline": "Pukul 12.15 WIB",
+    "formUrl": "https://docs.google.com/forms/d/e/example-absensi-2/viewform"
+  }
+]

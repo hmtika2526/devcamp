@@ -1,0 +1,88 @@
+{
+  "title": "👥 Mentoring Groups",
+  "description": "Daftar pembagian kelompok mentoring peserta DevCamp HMTIKA beserta mentor pendamping.",
+  "note": "Kelompok mentoring digunakan sebagai media pendampingan belajar, diskusi materi, konsultasi, & koordinasi dengan mentor. (Tidak berkaitan dengan Mini Project maupun Final Project).",
+  "sheetUrl": "https://docs.google.com/spreadsheets/d/example-mentoring-groups/edit",
+  "groups": [
+    {
+      "id": "group-1",
+      "groupName": "Kelompok 1",
+      "mentor": "Ayu",
+      "whatsappGroup": "",
+      "members": [
+        "Raikhan Faizin",
+        "Naura Dwi K",
+        "Hesti Fika L",
+        "Rohma Ira F",
+        "Adila Ramdan",
+        "Alvina Dwi R",
+        "Amir Machmud",
+        "Agus Ungguh S"
+      ]
+    },
+    {
+      "id": "group-2",
+      "groupName": "Kelompok 2",
+      "mentor": "Iqbaal",
+      "whatsappGroup": "",
+      "members": [
+        "Rohmah Nur F",
+        "Diva Marsela",
+        "Ega Wardana",
+        "Tsalasifa Azwa A",
+        "Sarah Khoirun N",
+        "Anzalnadi Azzukruf F",
+        "Nanda Aditya L",
+        "Anggi Nur N"
+      ]
+    },
+    {
+      "id": "group-3",
+      "groupName": "Kelompok 3",
+      "mentor": "Abdhe",
+      "whatsappGroup": "",
+      "members": [
+        "Fazira Astin A",
+        "Arum Tamam Q",
+        "Zaskia Alya P",
+        "Ardian Kusuma Putra P",
+        "Adinka Zahrotunnisa A",
+        "Puja Rizqi P",
+        "Imam Nurfalah",
+        "Adinda Nazwa M"
+      ]
+    },
+    {
+      "id": "group-4",
+      "groupName": "Kelompok 4",
+      "mentor": "Kevin",
+      "whatsappGroup": "",
+      "members": [
+        "Zaskia Dwi S",
+        "Alfa Amirul K",
+        "Annisa Auliya",
+        "Hana Mikayla S",
+        "Erlan Nur Faiza",
+        "Amalia Arie T",
+        "Awan Shafiq F",
+        "Desti Alifia P"
+      ]
+    },
+    {
+      "id": "group-5",
+      "groupName": "Kelompok 5",
+      "mentor": "Toni-Nabila",
+      "whatsappGroup": "",
+      "members": [
+        "Sarifaturahmah",
+        "Nawa Dimyati",
+        "Muhammad Zuhrul I",
+        "Tri Ratna F",
+        "Alya Shafa D",
+        "Rafa Aurelia",
+        "Daemby Althaf",
+        "Dian Septiani"
+      ]
+    }
+  ]
+}

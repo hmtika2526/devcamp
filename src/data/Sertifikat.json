@@ -1,0 +1,506 @@
+[
+  {
+    "id": 1,
+    "nama": "FAJAR NURULLOH",
+    "no_sert": "4113/1/VIII/HMTIKA/2025",
+    "code_sert": "4113_1_VIII_HMTIKA_2025",
+    "status": "Best Capstone, Distinction",
+    "type": "peserta"
+  },
+  {
+    "id": 2,
+    "nama": "CALISA LUTFIKARIMAH",
+    "no_sert": "4113/2/VIII/HMTIKA/2025",
+    "code_sert": "4113_2_VIII_HMTIKA_2025",
+    "status": "Best Capstone, Distinction",
+    "type": "peserta"
+  },
+  {
+    "id": 3,
+    "nama": "NABILA REFA HIDAYATI",
+    "no_sert": "4113/3/VIII/HMTIKA/2025",
+    "code_sert": "4113_3_VIII_HMTIKA_2025",
+    "status": "Best Capstone, Distinction",
+    "type": "peserta"
+  },
+  {
+    "id": 4,
+    "nama": "RIZKI NGAFIFUDIN",
+    "no_sert": "4113/4/VIII/HMTIKA/2025",
+    "code_sert": "4113_4_VIII_HMTIKA_2025",
+    "status": "Best Capstone",
+    "type": "peserta"
+  },
+  {
+    "id": 5,
+    "nama": "AKBAR SYAIFULLOH",
+    "no_sert": "4113/5/VIII/HMTIKA/2025",
+    "code_sert": "4113_5_VIII_HMTIKA_2025",
+    "status": "Best Capstone",
+    "type": "peserta"
+  },
+  {
+    "id": 6,
+    "nama": "SEPTA SHASY RAMADANI",
+    "no_sert": "4113/6/VIII/HMTIKA/2025",
+    "code_sert": "4113_6_VIII_HMTIKA_2025",
+    "status": "Best Capstone",
+    "type": "peserta"
+  },
+  {
+    "id": 7,
+    "nama": "HABIB ALI MUSTHOFA",
+    "no_sert": "4113/7/VIII/HMTIKA/2025",
+    "code_sert": "4113_7_VIII_HMTIKA_2025",
+    "status": "Distinction",
+    "type": "peserta"
+  },
+  {
+    "id": 8,
+    "nama": "ABDHE RACHMANZAH",
+    "no_sert": "4113/8/VIII/HMTIKA/2025",
+    "code_sert": "4113_8_VIII_HMTIKA_2025",
+    "status": "Distinction",
+    "type": "peserta"
+  },
+  {
+    "id": 9,
+    "nama": "NISA SEPTIANI",
+    "no_sert": "4113/9/VIII/HMTIKA/2025",
+    "code_sert": "4113_9_VIII_HMTIKA_2025",
+    "status": "Distinction",
+    "type": "peserta"
+  },
+  {
+    "id": 10,
+    "nama": "DAEMBY ALTHAF",
+    "no_sert": "4113/10/VIII/HMTIKA/2025",
+    "code_sert": "4113_10_VIII_HMTIKA_2025",
+    "status": "Distinction",
+    "type": "peserta"
+  },
+  {
+    "id": 11,
+    "nama": "NANDA ADITYA LUTFIKA",
+    "no_sert": "4113/11/VIII/HMTIKA/2025",
+    "code_sert": "4113_11_VIII_HMTIKA_2025",
+    "status": "Distinction",
+    "type": "peserta"
+  },
+  {
+    "id": 12,
+    "nama": "WIWIT SETYA NINGSIH",
+    "no_sert": "4113/12/VIII/HMTIKA/2025",
+    "code_sert": "4113_12_VIII_HMTIKA_2025",
+    "status": "Distinction",
+    "type": "peserta"
+  },
+  {
+    "id": 13,
+    "nama": "MIRZA AULIA",
+    "no_sert": "4113/13/VIII/HMTIKA/2025",
+    "code_sert": "4113_13_VIII_HMTIKA_2025",
+    "status": "Distinction",
+    "type": "peserta"
+  },
+  {
+    "id": 14,
+    "nama": "KEVIN DAVID AFRILA",
+    "no_sert": "4113/14/VIII/HMTIKA/2025",
+    "code_sert": "4113_14_VIII_HMTIKA_2025",
+    "status": "Distinction",
+    "type": "peserta"
+  },
+  {
+    "id": 15,
+    "nama": "AWAN SHAFIQ",
+    "no_sert": "4113/15/VIII/HMTIKA/2025",
+    "code_sert": "4113_15_VIII_HMTIKA_2025",
+    "status": "Distinction",
+    "type": "peserta"
+  },
+  {
+    "id": 16,
+    "nama": "AYU SETIAWATI",
+    "no_sert": "4113/16/VIII/HMTIKA/2025",
+    "code_sert": "4113_16_VIII_HMTIKA_2025",
+    "status": "Distinction",
+    "type": "peserta"
+  },
+  {
+    "id": 17,
+    "nama": "DIAN SEPTIANI",
+    "no_sert": "4113/17/VIII/HMTIKA/2025",
+    "code_sert": "4113_17_VIII_HMTIKA_2025",
+    "status": "Distinction",
+    "type": "peserta"
+  },
+  {
+    "id": 18,
+    "nama": "RAFA AURELLIA",
+    "no_sert": "4113/18/VIII/HMTIKA/2025",
+    "code_sert": "4113_18_VIII_HMTIKA_2025",
+    "status": "Distinction",
+    "type": "peserta"
+  },
+  {
+    "id": 19,
+    "nama": "DHEA OLGA AMELIA",
+    "no_sert": "4113/19/VIII/HMTIKA/2025",
+    "code_sert": "4113_19_VIII_HMTIKA_2025",
+    "status": "Full Graduate",
+    "type": "peserta"
+  },
+  {
+    "id": 20,
+    "nama": "SEPTA SHASY RAMADANI",
+    "no_sert": "4113/20/VIII/HMTIKA/2025",
+    "code_sert": "4113_20_VIII_HMTIKA_2025",
+    "status": "Full Graduate",
+    "type": "peserta"
+  },
+  {
+    "id": 21,
+    "nama": "NURUL HIKMAH",
+    "no_sert": "4113/21/VIII/HMTIKA/2025",
+    "code_sert": "4113_21_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 22,
+    "nama": "WIKE NURHIDAYAH",
+    "no_sert": "4113/22/VIII/HMTIKA/2025",
+    "code_sert": "4113_22_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 23,
+    "nama": "GILANG NUR IKHSAN",
+    "no_sert": "4113/23/VIII/HMTIKA/2025",
+    "code_sert": "4113_23_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 24,
+    "nama": "IQBAL FATHU R",
+    "no_sert": "4113/24/VIII/HMTIKA/2025",
+    "code_sert": "4113_24_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+    {
+    "id": 25,
+    "nama": "FAKHRI NUR H",
+    "no_sert": "4113/25/VIII/HMTIKA/2025",
+    "code_sert": "4113_25_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 26,
+    "nama": "AHNAF DAFA N",
+    "no_sert": "4113/26/VIII/HMTIKA/2025",
+    "code_sert": "4113_26_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 27,
+    "nama": "M. BIMA AR ROZAQ",
+    "no_sert": "4113/27/VIII/HMTIKA/2025",
+    "code_sert": "4113_27_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 28,
+    "nama": "ZAHRA NURUL FITRIAH",
+    "no_sert": "4113/28/VIII/HMTIKA/2025",
+    "code_sert": "4113_28_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 29,
+    "nama": "ERLUNSYA RIZQI H",
+    "no_sert": "4113/29/VIII/HMTIKA/2025",
+    "code_sert": "4113_29_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 30,
+    "nama": "IRNA SOFIYAWATI",
+    "no_sert": "4113/30/VIII/HMTIKA/2025",
+    "code_sert": "4113_30_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 31,
+    "nama": "ABDUL GHOZIN",
+    "no_sert": "4113/31/VIII/HMTIKA/2025",
+    "code_sert": "4113_31_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 32,
+    "nama": "ALYA SHAFA D",
+    "no_sert": "4113/32/VIII/HMTIKA/2025",
+    "code_sert": "4113_32_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 33,
+    "nama": "AHMAD YOGI F",
+    "no_sert": "4113/33/VIII/HMTIKA/2025",
+    "code_sert": "4113_33_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 34,
+    "nama": "RISEVARA GUMINTANG",
+    "no_sert": "4113/34/VIII/HMTIKA/2025",
+    "code_sert": "4113_34_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 35,
+    "nama": "ZAENUL MUTAKIN",
+    "no_sert": "4113/35/VIII/HMTIKA/2025",
+    "code_sert": "4113_35_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 36,
+    "nama": "BELLA SAFITRI",
+    "no_sert": "4113/36/VIII/HMTIKA/2025",
+    "code_sert": "4113_36_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 37,
+    "nama": "HAYDAR ALI AJI",
+    "no_sert": "4113/37/VIII/HMTIKA/2025",
+    "code_sert": "4113_37_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 38,
+    "nama": "MUHAMMAD GHUFRON ASY SYIFAA",
+    "no_sert": "4113/38/VIII/HMTIKA/2025",
+    "code_sert": "4113_38_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 39,
+    "nama": "DARMAYANI NENI",
+    "no_sert": "4113/39/VIII/HMTIKA/2025",
+    "code_sert": "4113_39_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 40,
+    "nama": "SITI NURROHMAH",
+    "no_sert": "4113/40/VIII/HMTIKA/2025",
+    "code_sert": "4113_40_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 41,
+    "nama": "DESTI ALFIA P",
+    "no_sert": "4113/41/VIII/HMTIKA/2025",
+    "code_sert": "4113_41_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 42,
+    "nama": "AFRIZA NUR FAID",
+    "no_sert": "4113/42/VIII/HMTIKA/2025",
+    "code_sert": "4113_42_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 43,
+    "nama": "UMI HANI I",
+    "no_sert": "4113/43/VIII/HMTIKA/2025",
+    "code_sert": "4113_43_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 44,
+    "nama": "SEFA WAHYU SAFITRI",
+    "no_sert": "4113/44/VIII/HMTIKA/2025",
+    "code_sert": "4113_44_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 45,
+    "nama": "IQBAL NUR FILARDI",
+    "no_sert": "4113/45/VIII/HMTIKA/2025",
+    "code_sert": "4113_45_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 46,
+    "nama": "SITI NUR FAUZIAH",
+    "no_sert": "4113/46/VIII/HMTIKA/2025",
+    "code_sert": "4113_46_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 47,
+    "nama": "ADE BAGUS SATRIO",
+    "no_sert": "4113/47/VIII/HMTIKA/2025",
+    "code_sert": "4113_47_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 48,
+    "nama": "RIFAI SAHRUL A",
+    "no_sert": "4113/48/VIII/HMTIKA/2025",
+    "code_sert": "4113_48_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 49,
+    "nama": "DHEA VONI",
+    "no_sert": "4113/49/VIII/HMTIKA/2025",
+    "code_sert": "4113_49_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+    {
+    "id": 50,
+    "nama": "SEPTIA ENDARTI",
+    "no_sert": "4113/50/VIII/HMTIKA/2025",
+    "code_sert": "4113_50_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 51,
+    "nama": "ALVINA DWI RAHAYU",
+    "no_sert": "4113/51/VIII/HMTIKA/2025",
+    "code_sert": "4113_51_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 52,
+    "nama": "ROHMAH FITRIYANI",
+    "no_sert": "4113/52/VIII/HMTIKA/2025",
+    "code_sert": "4113_52_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 53,
+    "nama": "M. ADI HIJATUL M",
+    "no_sert": "4113/53/VIII/HMTIKA/2025",
+    "code_sert": "4113_53_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 54,
+    "nama": "MIFTAH DWI YULIANINGSIH",
+    "no_sert": "4113/54/VIII/HMTIKA/2025",
+    "code_sert": "4113_54_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 55,
+    "nama": "DAVINA RAMADHANI",
+    "no_sert": "4113/55/VIII/HMTIKA/2025",
+    "code_sert": "4113_55_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 56,
+    "nama": "ARIFIN ILHAM",
+    "no_sert": "4113/56/VIII/HMTIKA/2025",
+    "code_sert": "4113_56_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 57,
+    "nama": "RAFI ASSIDIQ",
+    "no_sert": "4113/57/VIII/HMTIKA/2025",
+    "code_sert": "4113_57_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 58,
+    "nama": "LITA DWI I",
+    "no_sert": "4113/58/VIII/HMTIKA/2025",
+    "code_sert": "4113_58_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 59,
+    "nama": "SRI DWI CAHYANTI",
+    "no_sert": "4113/59/VIII/HMTIKA/2025",
+    "code_sert": "4113_59_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 60,
+    "nama": "FISAFANGATI ROCHMAH",
+    "no_sert": "4113/60/VIII/HMTIKA/2025",
+    "code_sert": "4113_60_VIII_HMTIKA_2025",
+    "status": "Participation",
+    "type": "peserta"
+  },
+  {
+    "id": 61,
+    "nama": "FIRMAN HIDAYAT",
+    "no_sert": "4113/61/VIII/HMTIKA/2025",
+    "code_sert": "4113_61_VIII_HMTIKA_2025",
+    "status": "Instruktor",
+    "type": "instruktor"
+  },
+  {
+    "id": 62,
+    "nama": "ALFI NAZILAH",
+    "no_sert": "4113/62/VIII/HMTIKA/2025",
+    "code_sert": "4113_62_VIII_HMTIKA_2025",
+    "status": "Instruktor",
+    "type": "instruktor"
+  },
+  {
+    "id": 63,
+    "nama": "IMAM NURFALAH",
+    "no_sert": "4113/63/VIII/HMTIKA/2025",
+    "code_sert": "4113_63_VIII_HMTIKA_2025",
+    "status": "Instruktor",
+    "type": "instruktor"
+  }
+]

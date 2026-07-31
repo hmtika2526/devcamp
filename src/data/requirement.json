@@ -1,0 +1,20 @@
+{
+    "hardware": [
+        "Laptop",
+        "Internet Connection"
+    ],
+    "software": {
+        "ui-ux": "Figma",
+        "code-editor": "VS Code (recommended)",
+        "web-browser": [
+            "Chrome",
+            "Brave",
+            "Edge"
+        ],
+        "submission": "GitHub, Vervel",
+        "Video Conferencing": [
+            "Zoom",
+            "Google Meet"
+        ]
+    }
+}

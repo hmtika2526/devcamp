@@ -1,0 +1,158 @@
+[
+    {
+        "id": 1,
+        "nama": "Calisa Lutfikarimah",
+        "level": "Junior",
+        "instansi": "Unknown",
+        "status": "capstone",
+        "image": "20250913_100154.jpg"
+    },
+    {
+        "id": 2,
+        "nama": "Nabila Refa Hidayati",
+        "level": "Junior",
+        "instansi": "Unknown",
+        "status": "capstone",
+        "image": "20250913_095752.jpg"
+    },
+    {
+        "id": 3,
+        "nama": "Septa Shasy Ramadani",
+        "level": "Junior",
+        "instansi": "Unknown",
+        "status": "capstone",
+        "image": "20250913_095736.jpg"
+    },
+    {
+        "id": 4,
+        "nama": "Fajar Nurullah",
+        "level": "Senior",
+        "instansi": "Unknown",
+        "status": "capstone",
+        "image": "20250913_100141.jpg"
+    },
+    {
+        "id": 5,
+        "nama": "Rizki Ngafifudin",
+        "level": "Senior",
+        "instansi": "Unknown",
+        "status": "capstone",
+        "image": "20250913_095949.jpg"
+    },
+    {
+        "id": 6,
+        "nama": "Akbar Saefullah",
+        "level": "Senior",
+        "instansi": "Unknown",
+        "status": "capstone",
+        "image": "20250913_095934.jpg"
+    },
+
+    
+    {
+        "id": 7,
+        "nama": "Habib Ali Musthofa",
+        "level": "Junior",
+        "instansi": "Unknown",
+        "status": "distinction",
+        "image": "/assets/images/unknown.png"
+    },{
+        "id": 8,
+        "nama": "Abde Rachmanzah",
+        "level": "Junior",
+        "instansi": "Unknown",
+        "status": "distinction",
+        "image": "/assets/images/unknown.png"
+    },{
+        "id": 9,
+        "nama": "Nisa Septiani",
+        "level": "Junior",
+        "instansi": "Unknown",
+        "status": "distinction",
+        "image": "/assets/images/unknown.png"
+    },{
+        "id": 10,
+        "nama": "Deamby Althaf",
+        "level": "Junior",
+        "instansi": "Unknown",
+        "status": "distinction",
+        "image": "/assets/images/unknown.png"
+    },{
+        "id": 11,
+        "nama": "Nanda aditya lutfika",
+        "level": "Junior",
+        "instansi": "Unknown",
+        "status": "distinction",
+        "image": "/assets/images/unknown.png"
+    },{
+        "id": 12,
+        "nama": "Wiwit setya ningsih",
+        "level": "Junior",
+        "instansi": "Unknown",
+        "status": "distinction",
+        "image": "/assets/images/unknown.png"
+    },{
+        "id": 13,
+        "nama": "Kevin david",
+        "level": "Junior",
+        "instansi": "Unknown",
+        "status": "distinction",
+        "image": "/assets/images/unknown.png"
+    },{
+        "id": 14,
+        "nama": "Awan shafiq",
+        "level": "Junior",
+        "instansi": "Unknown",
+        "status": "distinction",
+        "image": "/assets/images/unknown.png"
+    },{
+        "id": 15,
+        "nama": "Ayu setiawati",
+        "level": "Junior",
+        "instansi": "Unknown",
+        "status": "distinction",
+        "image": "/assets/images/unknown.png"
+    },{
+        "id": 16,
+        "nama": "Calisa Lutfikarimah",
+        "level": "Junior",
+        "instansi": "Unknown",
+        "status": "distinction",
+        "image": "/assets/images/unknown.png"
+    },{
+        "id": 17,
+        "nama": "Dian Septiani",
+        "level": "Junior",
+        "instansi": "Unknown",
+        "status": "distinction",
+        "image": "/assets/images/unknown.png"
+    },{
+        "id": 18,
+        "nama": "Awan shafiq",
+        "level": "Junior",
+        "instansi": "Unknown",
+        "status": "distinction",
+        "image": "/assets/images/unknown.png"
+    },{
+        "id": 15,
+        "nama": "Ayu setiawati",
+        "level": "Junior",
+        "instansi": "Unknown",
+        "status": "distinction",
+        "image": "/assets/images/unknown.png"
+    },{
+        "id": 16,
+        "nama": "Calisa Lutfikarimah",
+        "level": "Junior",
+        "instansi": "Unknown",
+        "status": "distinction",
+        "image": "/assets/images/unknown.png"
+    },{
+        "id": 17,
+        "nama": "Dian Septiani",
+        "level": "Junior",
+        "instansi": "Unknown",
+        "status": "distinction",
+        "image": "/assets/images/unknown.png"
+    }
+]
