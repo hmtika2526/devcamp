@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "VIRTUAL BACKGROUND ZOOM",
-    "description": "VIRTUAL BACKGROUND ZOOM",
+    "description": "Virtual Background resmi DevCamp Batch 2 yang wajib digunakan oleh seluruh peserta.",
     "url": "/download/virtual_background.png",
     "status": "Download",
     "category": "virtual"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Modul 1: Modul UI/UX",
-    "description": "Modul ini memperkenalkan dasar-dasar ui ux termasuk prinsip desain, wireframing, dan prototyping.",
+    "description": "Modul ini memperkenalkan dasar-dasar UI/UX termasuk prinsip desain, wireframing, dan prototyping.",
     "url": "/download/modul/MODUL_BOOTCAMP_HMTIKA_UI%20UX.pdf",
     "status": "Download",
     "category": "Modul"
@@ -26,161 +26,137 @@
   {
     "id": 4,
     "name": "Modul 3: Modul CSS",
-    "description": "Modul ini memperkenalkan dasar-dasar css, termasuk selektor, properti, dan layout.",
+    "description": "Modul ini memperkenalkan dasar-dasar CSS, termasuk selektor, properti, dan layout.",
     "url": "/download/modul/MODUL_BOOTCAMP_HMTIKA_CSS.pdf",
     "status": "Download",
     "category": "Modul"
   },
   {
-    "id": 4,
-    "name": "On-Boarding : Rekaman On-Boarding 1 Agustus 2025",
-    "description": "-",
-    "url": "https://drive.google.com/file/d/1vJefzEmk_qVVe6hCg3-pcZtt8FAxvk1p/view?usp=drive_link",
+    "id": 5,
+    "name": "Onboarding : Rekaman Sesi Onboarding (1 Agustus 2026)",
+    "description": "Dokumentasi dan video rekaman sesi pengenalan program DevCamp.",
+    "url": "#",
     "status": "Belum Dibuka",
     "category": "Rekaman"
   },
   {
-    "id": 5,
-    "name": "UI/UX : Materi PPTX",
-    "description": "-",
-    "url": "/download/modul/PPT UI UX.pptx",
-    "status": "Belum Dibuka",
-    "category": "Materi"
-  },
-  {
     "id": 6,
-    "name": "UI/UX Day 1 : Rekaman Online Class 4 Agustus 2025",
-    "description": "-",
-    "url": "https://drive.google.com/file/d/1fAC1W8jfe8feoMgwLqiyG_Liu4hbaYsG/view?usp=drive_link",
+    "name": "UI/UX Session 1 : Rekaman Online Class - UI/UX Design dengan Figma (3 Agustus 2026)",
+    "description": "Rekaman materi sesi 1 pembahasan UI/UX Design.",
+    "url": "#",
     "status": "Belum Dibuka",
     "category": "Rekaman"
   },
   {
     "id": 7,
-    "name": "UI/UX Day 2 : Rekaman Online Class 5 Agustus 2025",
-    "description": "-",
-    "url": "https://drive.google.com/file/d/1gQt0_oxl8J8KRLQ63jVxC6r8jaaIZIQZ/view?usp=drive_link",
+    "name": "UI/UX Hands On Day 1 : Rekaman Sesi Praktik UI/UX (4 Agustus 2026)",
+    "description": "Rekaman pendampingan praktik UI/UX hari pertama.",
+    "url": "#",
     "status": "Belum Dibuka",
     "category": "Rekaman"
   },
   {
     "id": 8,
-    "name": "HTML : Materi PPTX",
-    "description": "-",
-    "url": "https://docs.google.com/presentation/d/199z5Qbsn_FvsFnpIGyJK5qplRLh0Ldgc/export/pptx",
+    "name": "UI/UX Hands On Day 2 : Rekaman Sesi Praktik UI/UX (5 Agustus 2026)",
+    "description": "Rekaman pendampingan praktik UI/UX hari kedua.",
+    "url": "#",
     "status": "Belum Dibuka",
-    "category": "Materi"
+    "category": "Rekaman"
   },
   {
     "id": 9,
-    "name": "HTML Day 1 : Rekaman Online Class 11 Agustus 2025",
-    "description": "-",
-    "url": "https://drive.google.com/file/d/1urFr2X1ubKMAsFR_ZiqO11P3lSuZIEpC/view?usp=drive_link",
+    "name": "HTML Session 2 : Rekaman Online Class - HTML Dasar (10 Agustus 2026)",
+    "description": "Rekaman materi sesi 2 pembahasan struktur & elemen HTML.",
+    "url": "#",
     "status": "Belum Dibuka",
     "category": "Rekaman"
   },
   {
     "id": 10,
-    "name": "HTML Day 2 : Rekaman Online Class 12 Agustus 2025",
-    "description": "-",
-    "url": "https://drive.google.com/file/d/1fm1alnMuIKUS6UMAJ_fakreIdjWw-lS-/view?usp=sharing",
+    "name": "HTML Hands On Day 1 : Rekaman Sesi Praktik HTML (11 Agustus 2026)",
+    "description": "Rekaman pendampingan praktik HTML hari pertama.",
+    "url": "#",
     "status": "Belum Dibuka",
     "category": "Rekaman"
   },
   {
     "id": 11,
-    "name": "HTML Day 3 : Rekaman Online Class 13 Agustus 2025",
-    "description": "-",
-    "url": "https://drive.google.com/file/d/10HgYvhHviz7r5ysNqKPznFBT41qr7ZS7/view?usp=drive_link",
+    "name": "HTML Hands On Day 2 : Rekaman Sesi Praktik HTML (12 Agustus 2026)",
+    "description": "Rekaman pendampingan praktik HTML hari kedua.",
+    "url": "#",
     "status": "Belum Dibuka",
     "category": "Rekaman"
   },
   {
     "id": 12,
-    "name": "CSS : Intro",
-    "description": "-",
-    "url": "https://drive.google.com/uc?export=download&id=1h3FZ1S1oN7ioH1qNuBxL4UJ5KepHwYnv",
+    "name": "CSS & Deployment Session 3 : Rekaman Online Class (17 Agustus 2026)",
+    "description": "Rekaman materi sesi 3 pembahasan CSS, Responsive Design & Tailwind.",
+    "url": "#",
     "status": "Belum Dibuka",
-    "category": "Materi"
+    "category": "Rekaman"
   },
   {
     "id": 13,
-    "name": "CSS : Layout",
-    "description": "-",
-    "url": "https://drive.google.com/uc?export=download&id=1Oy9kVJMOWINv_IpqI8h6QZCMYmH_H5uI",
+    "name": "CSS Hands On : Rekaman Sesi Praktik CSS & Tailwind (18 Agustus 2026)",
+    "description": "Rekaman pendampingan praktik CSS & Tailwind CSS.",
+    "url": "#",
     "status": "Belum Dibuka",
-    "category": "Materi"
+    "category": "Rekaman"
   },
   {
     "id": 14,
-    "name": "CSS Day 1 : Rekaman Online Class 18 Agustus 2025",
-    "description": "-",
-    "url": "https://drive.google.com/file/d/18MD4vabYxT6f4p3Se9uFYdpn9iEfLQhT/view?usp=sharing",
+    "name": "Deployment Hands On : Rekaman Sesi Praktik Deployment (19 Agustus 2026)",
+    "description": "Rekaman pendampingan praktik deployment & hosting.",
+    "url": "#",
     "status": "Belum Dibuka",
     "category": "Rekaman"
   },
   {
     "id": 15,
-    "name": "CSS : Responsive",
-    "description": "-",
-    "url": "https://drive.google.com/uc?export=download&id=1rSAH2V8jJ0W5OGyCdfp9l0Um1IZjyz_o",
+    "name": "Final Project Briefing : Rekaman Briefing Final Project (21 Agustus 2026)",
+    "description": "Rekaman sesi pengarahan & ketentuan Final Project DevCamp.",
+    "url": "#",
+    "status": "Belum Dibuka",
+    "category": "Rekaman"
+  },
+  {
+    "id": 16,
+    "name": "Materi UI/UX Design : Slide Presentation & Assets (3 Agustus 2026)",
+    "description": "File materi presentasi UI/UX Design dengan Figma.",
+    "url": "#",
     "status": "Belum Dibuka",
     "category": "Materi"
   },
   {
-    "id": 16,
-    "name": "CSS Day 2 : Rekaman Online Class 19 Agustus 2025",
-    "description": "-",
-    "url": "https://drive.google.com/file/d/1ACbXlo4TftoC6MzaIKcR-Q4xQ5TLs9kB/view?usp=sharing",
-    "status": "Belum Dibuka",
-    "category": "Rekaman"
-  },
-  {
     "id": 17,
-    "name": "CSS Day 3 : Rekaman Online Class 20 Agustus 2025",
-    "description": "-",
-    "url": "https://drive.google.com/file/d/1NaTBw_vEaJRkhqKZyXwdlkpPixSldiI0/view?usp=sharing",
+    "name": "Materi HTML Dasar : Slide Presentation (10 Agustus 2026)",
+    "description": "File materi presentasi HTML Dasar.",
+    "url": "#",
     "status": "Belum Dibuka",
-    "category": "Rekaman"
+    "category": "Materi"
   },
   {
     "id": 18,
-    "name": "CSS : Animasi",
-    "description": "-",
-    "url": "https://drive.google.com/uc?export=download&id=12JzjYRQPh6Un04GpkVR6EpdVeXCPRdqd",
+    "name": "Materi CSS & Tailwind CSS : Slide Presentation (17 Agustus 2026)",
+    "description": "File materi presentasi CSS, Responsive Design & Tailwind CSS.",
+    "url": "#",
     "status": "Belum Dibuka",
     "category": "Materi"
   },
   {
     "id": 19,
-    "name": "CSS Day 4 : Rekaman Online Class 21 Agustus 2025",
-    "description": "-",
-    "url": "https://drive.google.com/file/d/1Ln_uSw5QwL24bRiQq5NEVhejTOxk9vgx/view?usp=sharing",
-    "status": "Belum Dibuka",
-    "category": "Rekaman"
-  },
-  {
-    "id": 20,
-    "name": "Deployment",
-    "description": "-",
-    "url": "https://drive.google.com/uc?export=download&id=1RYwtTRwpwUBNhyOFqAUqYocNtPHwHdCU",
+    "name": "Materi Deployment & Hosting : Slide Presentation (19 Agustus 2026)",
+    "description": "File materi presentasi Deployment & Hosting web.",
+    "url": "#",
     "status": "Belum Dibuka",
     "category": "Materi"
   },
   {
     "id": 20,
-    "name": "Deployment : Rekaman Online Class 22 Agustus 2025",
-    "description": "-",
-    "url": "https://drive.google.com/file/d/1mf8Eh0oZcibAJTRnhl_G4QzZ93vFcBrs/view?usp=sharing",
+    "name": "Final Project Briefing : Panduan & Slide Briefing (21 Agustus 2026)",
+    "description": "File dokumen petunjuk & ketentuan Final Project DevCamp.",
+    "url": "#",
     "status": "Belum Dibuka",
-    "category": "Rekaman"
-  },
-  {
-    "id": 21,
-    "name": "Capstone Briefing : Rekaman Online Class 25 Agustus 2025",
-    "description": "-",
-    "url": "https://drive.google.com/file/d/1H1IFI3eeIpcL2FyS1dDlnrDnjAGYjqKb/view?usp=sharing",
-    "status": "Belum Dibuka",
-    "category": "Rekaman"
+    "category": "Materi"
   }
 ]
