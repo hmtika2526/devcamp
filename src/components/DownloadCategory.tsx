@@ -49,9 +49,16 @@ export default function DownloadCategory({
               </Link>
             </div>
           ) : (
-            items.map((item) => (
-              <DownloadItem key={item.id} item={item} />
-            ))
+            <>
+              {(category === "Rekaman" || category === "Materi") && (
+                <div className="ml-2 mb-3 p-3 bg-[#22262E] border border-yellow-500/30 rounded-lg text-yellow-300 text-xs font-orbitron flex items-center gap-2">
+                  <span>🔒</span> Akses {category.toLowerCase()} saat ini belum dibuka dan akan diaktifkan sesuai jadwal kelas.
+                </div>
+              )}
+              {items.map((item) => (
+                <DownloadItem key={item.id} item={item} />
+              ))}
+            </>
           )}
         </div>
       </div>
