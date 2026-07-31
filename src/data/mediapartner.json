@@ -55,13 +55,13 @@
     },
     {
         "id": 10,
-        "name": "HIMAGRO Polibara",
+        "name": "HMPS INFORMATIKA UIN SAIZU",
         "url": "https://www.instagram.com/himagro_polibara/",
         "image": "/assets/images/media-partner/himagro_polibara.webp"
     },
     {
         "id": 11,
-        "name": "HMPS Informatika UIN PKL",
+        "name": "HIMAFORTIC UNUGHA",
         "url": "https://www.instagram.com/hmpsinformatika.uinpkl/",
         "image": "/assets/images/media-partner/hmps_uinpkl.webp"
     },
@@ -73,56 +73,9 @@
     },
     {
         "id": 13,
-        "name": "Info STB",
+        "name": "OSIS SKADA",
         "url": "https://www.instagram.com/inf.stb/",
         "image": "/assets/images/media-partner/inf_stb.webp"
     },
-    {
-        "id": 14,
-        "name": "STB IT",
-        "url": "https://www.instagram.com/stb.it/",
-        "image": "/assets/images/media-partner/stb_it.webp"
-    },
-    {
-        "id": 15,
-        "name": "SI1 STB",
-        "url": "https://www.instagram.com/si1.stb/",
-        "image": "/assets/images/media-partner/si1_stb.webp"
-    },
-    {
-        "id": 16,
-        "name": "InCare Sistem Informasi",
-        "url": "https://www.instagram.com/incare.si/",
-        "image": "/assets/images/media-partner/incare_si.webp"
-    },
-    {
-        "id": 17,
-        "name": "SenzTech",
-        "url": "https://www.instagram.com/senztech/",
-        "image": "/assets/images/media-partner/senztech.webp"
-    },
-    {
-        "id": 18,
-        "name": "PMII Dipayuda",
-        "url": "https://www.instagram.com/pmiidipayuda/",
-        "image": "/assets/images/media-partner/pmii_dipayuda.webp"
-    },
-    {
-        "id": 19,
-        "name": "Narasi Bangsaa",
-        "url": "https://www.instagram.com/narasi_bangsaa/",
-        "image": "/assets/images/media-partner/narasi_bangsaa.webp"
-    },
-    {
-        "id": 20,
-        "name": "Artasy Chicken",
-        "url": "https://www.instagram.com/artasychicken/",
-        "image": "/assets/images/media-partner/artasychicken.webp"
-    },
-    {
-        "id": 21,
-        "name": "HMA STIE TAMBARA",
-        "url": "https://www.instagram.com/hma_stietambara/",
-        "image": "/assets/images/media-partner/hma_stietambara.jpg"
-    }
+
 ]
