@@ -18,7 +18,7 @@ export default function Resources() {
                 RESOURCES CENTER
             </ScrollFloat>
             <p className="text-center text-gray-300 font-orbitron max-w-3xl mx-auto mb-12 text-sm md:text-base leading-relaxed">
-                Pusat dokumen resmi DevCamp yang menyediakan panduan peserta, petunjuk teknis, timeline kegiatan, template, serta aset pendukung yang dapat diakses selama program berlangsung.
+                Pusat dokumen resmi DevCamp yang menyediakan panduan peserta, petunjuk teknis, serta timeline kegiatan yang dapat diakses selama program berlangsung.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">

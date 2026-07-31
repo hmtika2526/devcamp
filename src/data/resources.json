@@ -19,26 +19,5 @@
     "description": "Timeline resmi pelaksanaan DevCamp yang berisi jadwal kegiatan, modul pembelajaran, deadline tugas, mini project, final project, hingga penutupan program.",
     "buttonLabel": "📂 Buka Dokumen",
     "fileUrl": "/timeline"
-  },
-  {
-    "id": "res-4",
-    "title": "📝 Template Abstrak",
-    "description": "Template resmi yang digunakan peserta untuk menyusun abstrak final project sesuai format DevCamp.",
-    "buttonLabel": "📂 Buka Template",
-    "fileUrl": "https://docs.google.com/document/d/example-template-abstract/edit"
-  },
-  {
-    "id": "res-5",
-    "title": "📊 Template Presentasi",
-    "description": "Template presentasi resmi yang digunakan saat sesi presentasi final project DevCamp.",
-    "buttonLabel": "📂 Buka Template",
-    "fileUrl": "https://docs.google.com/presentation/d/example-template-pitch/edit"
-  },
-  {
-    "id": "res-6",
-    "title": "🎨 Media & Assets",
-    "description": "Kumpulan aset resmi DevCamp seperti logo, banner, virtual background Zoom, dan media pendukung lainnya.",
-    "buttonLabel": "📂 Buka Folder",
-    "fileUrl": "https://drive.google.com/drive/folders/example-assets-folder"
   }
 ]
