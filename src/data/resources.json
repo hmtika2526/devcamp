@@ -4,14 +4,14 @@
     "title": "📘 Guide Book",
     "description": "Panduan resmi peserta DevCamp yang berisi informasi program, ketentuan umum, hak dan kewajiban peserta, sistem penilaian, sertifikat, serta informasi penting lainnya.",
     "buttonLabel": "📂 Buka Dokumen",
-    "fileUrl": "https://drive.google.com/file/d/example-guidebook/view"
+    "fileUrl": "https://docs.google.com/document/d/1rHd2oAWfhcUV1we7tkZM07Mb0MNdB5sL/edit?usp=sharing&ouid=109895538476905398633&rtpof=true&sd=true"
   },
   {
     "id": "res-2",
     "title": "🛠 Technical Guide",
     "description": "Petunjuk teknis pelaksanaan DevCamp yang mencakup persiapan perangkat, platform yang digunakan, mekanisme kelas, absensi, tugas, mini project, final project, serta tata tertib peserta.",
     "buttonLabel": "📂 Buka Dokumen",
-    "fileUrl": "https://drive.google.com/file/d/example-techguide/view"
+    "fileUrl": "https://docs.google.com/document/d/1ble1uRWjnonRmOINcn21jRH3UXO4RabW/edit?usp=sharing&ouid=109895538476905398633&rtpof=true&sd=true"
   },
   {
     "id": "res-3",
