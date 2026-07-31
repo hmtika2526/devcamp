@@ -20,18 +20,6 @@ export default function Mentoring() {
                 {mentoringData.description}
             </p>
 
-            <div className="max-w-6xl mx-auto mb-10 text-center">
-                <a
-                    href={mentoringData.sheetUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 bg-[#2E53B0] hover:bg-blue-600 text-white font-orbitron font-bold py-3 px-6 rounded-xl text-sm md:text-base transition-all shadow-md hover:scale-[1.02]"
-                >
-                    <span>📂 Buka Spreadsheet Lengkap</span>
-                    <span>➔</span>
-                </a>
-            </div>
-
             {/* Grid Kelompok Mentoring */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-12">
                 {mentoringData.groups.map((group) => (
