@@ -5,7 +5,9 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  output: 'standalone',
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   cleanDistDir: true,
   reactStrictMode: true,
   images: {

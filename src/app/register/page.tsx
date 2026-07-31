@@ -1,6 +1,5 @@
 'use client';
-import { useEffect } from 'react';
-import "../../assets/css/style.css"
+import "../../assets/css/style.css";
 
 export default function Register() {
     // useEffect(() => {

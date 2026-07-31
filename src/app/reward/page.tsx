@@ -4,8 +4,6 @@ import React from "react";
 import dynamic from "next/dynamic";
 // import Image from 'next/image';
 import Aurora from '../../utils/Aurora';
-// import Silk from '../../utils/Silk'
-import ScrollFloat from "@/utils/ScrollFloat";
 
 import Preloader from '../../components/Preloader';
 import Navbar from '../../components/Navbar';
