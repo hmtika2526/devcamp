@@ -26,12 +26,5 @@
     "description": "Virtual Background resmi DevCamp Batch 2 yang wajib digunakan oleh seluruh peserta selama sesi perkuliahan online & pertemuan Zoom.",
     "buttonLabel": "⬇️ Download Virtual Background",
     "fileUrl": "/download/virtual_background.png"
-  },
-  {
-    "id": "res-5",
-    "title": "🎥 Rekaman Kelas & Materi",
-    "description": "Akses rekaman seluruh sesi perkuliahan online, workshop, serta file presentasi materi DevCamp yang dapat dipelajari ulang kapan saja.",
-    "buttonLabel": "▶️ Akses Rekaman Kelas",
-    "fileUrl": "/download"
   }
 ]
