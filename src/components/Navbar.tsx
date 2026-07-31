@@ -101,7 +101,12 @@ export default function Navbar() {
         setCloseTimers((prev) => ({ ...prev, [name]: timer }));
     };
 
-    const navGroups = [
+    const navGroups: Array<{
+        name: string;
+        path?: string;
+        disabled?: boolean;
+        children?: Array<{ name: string; path: string; disabled?: boolean }>;
+    }> = [
         { name: 'HOME', path: '/' },
         {
             name: 'LEARNING HUB',
@@ -109,8 +114,6 @@ export default function Navbar() {
                 { name: 'ANNOUNCEMENTS', path: '/announcement' },
                 { name: 'MODULES', path: '/modules' },
                 { name: 'MENTORING GROUPS', path: '/mentoring' },
-                { name: 'ATTENDANCE', path: '/attendance' },
-                { name: 'QUIZ', path: '/quiz' },
                 { name: 'TASK SUBMISSION', path: '/assignment' },
             ]
         },
@@ -123,6 +126,7 @@ export default function Navbar() {
         },
         {
             name: "COMMUNITY & SHOWCASE",
+            disabled: true,
             children: [
                 { name: 'PROJECT SHOWCASE', path: '/submission' },
                 { name: 'BEST PARTICIPANTS', path: '/reward' },
@@ -164,7 +168,20 @@ export default function Navbar() {
                     {/* Navigation Items - Desktop */}
                     <div className="hidden xl:flex items-center justify-end md:pe-5 space-x-8">
                         {navGroups.map((group) =>
-                            group.children ? (
+                            group.disabled ? (
+                                <div
+                                    key={group.name}
+                                    className="relative flex items-center gap-2 cursor-not-allowed opacity-50 select-none"
+                                    title="Section disabled"
+                                >
+                                    <span className="text-[#ffffff] font-bold font-orbitron">
+                                        {group.name}
+                                    </span>
+                                    <span className="text-[10px] px-1.5 py-0.5 bg-red-500/20 text-red-400 border border-red-500/30 rounded font-orbitron">
+                                        OFF
+                                    </span>
+                                </div>
+                            ) : group.children ? (
                                 <div
                                     key={group.name}
                                     className="relative dropdown-container"
@@ -200,7 +217,7 @@ export default function Navbar() {
                             ) : (
                                 <button
                                     key={group.path}
-                                    onClick={() => handleClick(group.path)}
+                                    onClick={() => handleClick(group.path!)}
                                     className="text-[#ffffff] font-bold font-orbitron cursor-pointer"
                                 >
                                     {group.name}
@@ -230,7 +247,14 @@ export default function Navbar() {
                 <div className={`xl:hidden min-h-[calc(100vh-75px)] bg-[#22262E] text-center text-2xl ${isOpen ? 'translate-x-0 w-[100vw]' : '-translate-x-200 w-0'} transition-all duration-500 ease-in-out`}>
                     <div className="pt-4 pb-6 space-y-3 px-2">
                         {navGroups.map((group) =>
-                            group.children ? (
+                            group.disabled ? (
+                                <div key={group.name} className="w-full text-[#FFFFFF]/40 font-bold font-orbitron px-4 py-2 text-left cursor-not-allowed select-none flex items-center justify-between">
+                                    <span>{group.name}</span>
+                                    <span className="text-xs px-2 py-0.5 bg-red-500/20 text-red-400 border border-red-500/30 rounded font-orbitron">
+                                        OFF
+                                    </span>
+                                </div>
+                            ) : group.children ? (
                                 <div key={group.name} className="text-left relative">
                                     <button
                                         onClick={() => toggleDropdown(group.name)}
@@ -260,7 +284,7 @@ export default function Navbar() {
                             ) : (
                                 <button
                                     key={group.path}
-                                    onClick={() => handleClick(group.path)}
+                                    onClick={() => handleClick(group.path!)}
                                     className="block text-[#FFFFFF] font-bold font-orbitron px-4 py-2 text-left cursor-pointer w-full"
                                 >
                                     {group.name}

@@ -1,26 +1,26 @@
 [
-    {
-        "name": "Firman Hidayat",
-        "title": "UI UX Instruktor",
-        "handle": "gorvaoel",
-        "url": "https://instagram.com/gorvaoel/",
-        "status": "Instagram",
-        "avatarUrl": "/assets/images/instruktur-firman.webp"
-    },
-    {
-        "name": "Alfi Nazilah",
-        "title": "HTML Instruktor",
-        "handle": "alfigrace",
-        "url": "https://linkedin.com/in/alfi-nazilah",
-        "status": "LinkdIn",
-        "avatarUrl": "/assets/images/instuktur-alfi.webp"
-    },
-    {
-        "name": "Imam Nurfalah",
-        "title": "CSS Instruktor",
-        "handle": "affalximam",
-        "url": "https://linkedin.com/in/affalximam/",
-        "status": "LinkdIn",
-        "avatarUrl": "/assets/images/instuktur-imam.webp"
-    }
+  {
+    "name": "Sindi Prasetiyani",
+    "title": "UI/UX Instructor",
+    "handle": "sindi-prasetiyani",
+    "url": "https://www.linkedin.com/in/sindi-prasetiyani/",
+    "status": "LinkedIn",
+    "avatarUrl": "/assets/images/sindi_cropped.png"
+  },
+  {
+    "name": "Alfi Nazilah",
+    "title": "HTML Instructor",
+    "handle": "alfi-nazilah",
+    "url": "https://www.linkedin.com/in/alfi-nazilah/",
+    "status": "LinkedIn",
+    "avatarUrl": "/assets/images/instuktur-alfi.webp"
+  },
+  {
+    "name": "Rasyid Naufal",
+    "title": "CSS Instructor",
+    "handle": "rasyidnaufalsaputra",
+    "url": "https://www.linkedin.com/in/rasyidnaufalsaputra/",
+    "status": "LinkedIn",
+    "avatarUrl": "/assets/images/rasyid_cropped.png"
+  }
 ]

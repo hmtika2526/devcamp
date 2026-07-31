@@ -286,7 +286,7 @@ const ProfileCardComponent: React.FC<ProfileCardProps> = ({
                             loading="lazy"
                             onError={(e) => {
                                 const target = e.target as HTMLImageElement;
-                                target.style.display = "none filter-none";
+                                target.style.display = "none";
                             }}
                         />
 

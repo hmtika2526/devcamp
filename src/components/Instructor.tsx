@@ -5,6 +5,17 @@ import ProfileCard from '../utils/Profilcard';
 // import DynamicAvatar from '../dynamics/DynamicAvatar';
 import '../assets/css/style.css';
 
+interface InstructorItem {
+    name: string;
+    title: string;
+    handle: string;
+    url: string;
+    status: string;
+    avatarUrl: string;
+}
+
+const instructors = instructorData as InstructorItem[];
+
 export default function Instructor() {
     return (
         <section className="mx-auto w-full py-20 px-6 backdrop-blur-md relative">
@@ -16,7 +27,7 @@ export default function Instructor() {
             </div>
 
             <div className="flex flex-col sm:flex-row flex-wrap gap-6 justify-center items-center">
-                {instructorData.map((instructor, index) => (
+                {instructors.map((instructor, index) => (
                     <ProfileCard
                         key={index}
                         name={instructor.name}
