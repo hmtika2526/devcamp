@@ -39,7 +39,7 @@ export default function Resources() {
                                 </p>
                             </div>
 
-                            {isInternal ? (
+                            {isInternal && !item.fileUrl.match(/\.(png|jpg|jpeg|webp|pdf|zip)$/i) ? (
                                 <Link
                                     href={item.fileUrl}
                                     className="inline-flex items-center justify-center gap-2 w-full bg-[#2E53B0] hover:bg-blue-600 text-white font-orbitron font-bold py-3 px-4 rounded-lg text-sm transition-colors text-center"
@@ -49,6 +49,7 @@ export default function Resources() {
                             ) : (
                                 <a
                                     href={item.fileUrl}
+                                    download={item.fileUrl.match(/\.(png|jpg|jpeg|webp|pdf|zip)$/i) ? true : undefined}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center justify-center gap-2 w-full bg-[#2E53B0] hover:bg-blue-600 text-white font-orbitron font-bold py-3 px-4 rounded-lg text-sm transition-colors text-center"
