@@ -2,16 +2,16 @@
   {
     "id": "res-1",
     "title": "📘 Guide Book",
-    "description": "Panduan resmi peserta DevCamp yang berisi informasi program, ketentuan umum, hak dan kewajiban peserta, sistem penilaian, sertifikat, serta informasi penting lainnya.",
+    "description": "Panduan pendamping peserta untuk memahami alur perjalanan DevCamp, persiapan sebelum kelas, tips belajar, penggunaan tools, serta informasi dan tautan penting selama program.",
     "buttonLabel": "📂 Buka Dokumen",
-    "fileUrl": "https://drive.google.com/file/d/example-guidebook/view"
+    "fileUrl": "https://docs.google.com/document/d/1rHd2oAWfhcUV1we7tkZM07Mb0MNdB5sL/edit?usp=sharing&ouid=109895538476905398633&rtpof=true&sd=true"
   },
   {
     "id": "res-2",
     "title": "🛠 Technical Guide",
-    "description": "Petunjuk teknis pelaksanaan DevCamp yang mencakup persiapan perangkat, platform yang digunakan, mekanisme kelas, absensi, tugas, mini project, final project, serta tata tertib peserta.",
+    "description": "Dokumen resmi yang memuat seluruh ketentuan DevCamp, termasuk kehadiran, penilaian, tugas, mini project, final project, penggunaan AI, pelanggaran, dan mekanisme pelaksanaan program.",
     "buttonLabel": "📂 Buka Dokumen",
-    "fileUrl": "https://drive.google.com/file/d/example-techguide/view"
+    "fileUrl": "https://docs.google.com/document/d/1ble1uRWjnonRmOINcn21jRH3UXO4RabW/edit?usp=sharing&ouid=112784839558128015264&rtpof=true&sd=true"
   },
   {
     "id": "res-3",
@@ -25,6 +25,6 @@
     "title": "🖼 Virtual Background Zoom",
     "description": "Virtual Background resmi DevCamp Batch 2 yang wajib digunakan oleh seluruh peserta selama sesi perkuliahan online & pertemuan Zoom.",
     "buttonLabel": "⬇️ Download Virtual Background",
-    "fileUrl": "/download/virtual_background.png"
+    "fileUrl": "/download/ZOOM.png"
   }
 ]
