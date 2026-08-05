@@ -153,9 +153,9 @@ export default function MiniProjectDetail() {
                             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-2 text-xs font-orbitron">
                                 <div className="bg-[#22262E] p-2.5 rounded-lg text-center border border-gray-700 text-white">✓ Navbar</div>
                                 <div className="bg-[#22262E] p-2.5 rounded-lg text-center border border-gray-700 text-white">✓ Hero Section</div>
-                                <div className="bg-[#22262E] p-2.5 rounded-lg text-center border border-gray-800 text-gray-400">About (Opsional)</div>
+                                <div className="bg-[#22262E] p-2.5 rounded-lg text-center border border-gray-700 text-white">✓ About Section</div>
                                 <div className="bg-[#22262E] p-2.5 rounded-lg text-center border border-gray-700 text-white">✓ Feature Section</div>
-                                <div className="bg-[#22262E] p-2.5 rounded-lg text-center border border-gray-800 text-gray-400">Contact (Opsional)</div>
+                                <div className="bg-[#22262E] p-2.5 rounded-lg text-center border border-gray-800 text-gray-400">Contact Section (Opsional)</div>
                                 <div className="bg-[#22262E] p-2.5 rounded-lg text-center border border-gray-700 text-white">✓ Footer</div>
                             </div>
                         </div>
@@ -168,7 +168,7 @@ export default function MiniProjectDetail() {
                             </div>
 
                             <p className="text-gray-300 text-sm font-sans mb-3">
-                                Ubah wireframe menjadi desain UI beresolusi tinggi di Figma dengan memperhatikan aspek berikut:
+                                Ubah wireframe menjadi desain UI menggunakan Figma dengan memperhatikan aspek berikut:
                             </p>
 
                             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 text-xs font-sans text-gray-200 mb-4">
@@ -186,9 +186,16 @@ export default function MiniProjectDetail() {
                                 </div>
                             </div>
 
-                            <div className="bg-[#22262E] p-3 rounded-lg text-xs font-orbitron text-gray-300 border border-gray-800 flex items-center gap-2">
-                                <span className="text-yellow-400 text-base">📄</span>
-                                <span>Minimal terdiri dari <strong className="text-white">2 halaman yang saling terhubung</strong>. <em>(Opsional: tambahkan interaksi UX/Prototype)</em></span>
+                            <div className="space-y-2">
+                                <div className="bg-[#22262E] p-3 rounded-lg text-xs font-orbitron text-gray-300 border border-gray-800 flex items-center gap-2">
+                                    <span className="text-yellow-400 text-base">📄</span>
+                                    <span>Minimal terdiri dari <strong className="text-white">2 halaman yang saling terhubung</strong>.</span>
+                                </div>
+
+                                <div className="bg-[#2E53B0]/20 border border-blue-500/30 p-3 rounded-lg text-xs font-orbitron text-blue-300 flex items-center gap-2">
+                                    <span className="text-base">⭐</span>
+                                    <span><strong className="text-white">Poin Plus:</strong> Tambahkan UX (Interaksi / Prototyping interaktif pada Figma).</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -212,7 +219,7 @@ export default function MiniProjectDetail() {
                             <span className="text-red-400 text-lg">🚫</span> Dilarang menggunakan <strong>template jadi</strong>.
                         </div>
                         <div className="bg-[#171a26] p-3.5 rounded-xl border border-gray-800 flex items-center gap-3">
-                            <span className="text-blue-400 text-lg">✓</span> Boleh menggunakan <strong>plugin icon / ilustrasi</strong>.
+                            <span className="text-blue-400 text-lg">✓</span> Boleh menggunakan <strong>plugin icon maupun ilustrasi</strong>.
                         </div>
                         <div className="bg-[#171a26] p-3.5 rounded-xl border border-gray-800 flex items-center gap-3 sm:col-span-2">
                             <span className="text-[#2E53B0] text-lg">⭐</span> Seluruh desain merupakan <strong>hasil karya murni</strong> yang belum pernah dipublikasikan.
@@ -235,10 +242,11 @@ export default function MiniProjectDetail() {
                                 </h4>
                                 <p className="text-xs text-gray-400 mb-3">Laporan PDF harus berisi poin-poin berikut:</p>
                                 <ul className="text-xs text-gray-300 space-y-1.5 list-disc list-inside">
-                                    <li>Judul Project & Nama Peserta</li>
+                                    <li>Judul Project</li>
+                                    <li>Nama Peserta</li>
                                     <li>Latar Belakang Masalah</li>
-                                    <li>Proses Empathize, Define, & Ideate</li>
-                                    <li>Kesimpulan Solusi</li>
+                                    <li>Empathize, Define, & Ideate</li>
+                                    <li>Kesimpulan</li>
                                 </ul>
                             </div>
                         </div>
@@ -246,13 +254,13 @@ export default function MiniProjectDetail() {
                         <div className="bg-[#171a26] p-5 rounded-xl border border-gray-800 flex flex-col justify-between">
                             <div>
                                 <h4 className="font-orbitron font-bold text-base text-blue-400 mb-2 flex items-center gap-2">
-                                    <span>🌐</span> 2. Link Figma Project
+                                    <span>🌐</span> 2. Link Figma
                                 </h4>
                                 <p className="text-xs text-gray-400 mb-2">Pastikan pengaturan akses Figma set ke:</p>
                                 <div className="bg-[#22262E] text-yellow-300 text-xs px-3 py-2 rounded-lg font-orbitron inline-block mb-3 border border-yellow-500/30">
                                     🌐 &quot;Anyone with the link can view&quot;
                                 </div>
-                                <p className="text-xs text-gray-400">File Figma wajib mencakup Wireframe & Final UI Design.</p>
+                                <p className="text-xs text-gray-400">File Figma wajib mencakup Wireframe & Final UI/UX Design.</p>
                             </div>
                         </div>
                     </div>
