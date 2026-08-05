@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import ScrollFloat from '../utils/ScrollFloat';
 import assignments from '../data/assignments.json';
 
@@ -21,7 +22,7 @@ export default function Assignment() {
             </p>
 
             {assignments.length > 0 ? (
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
                     {assignments.map((item) => (
                         <div
                             key={item.id}
@@ -45,14 +46,37 @@ export default function Assignment() {
                                 </div>
                             </div>
 
-                            <a
-                                href={item.submitUrl}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="inline-flex items-center justify-center gap-2 w-full bg-[#2E53B0] hover:bg-blue-600 text-white font-orbitron font-bold py-2.5 px-4 rounded-lg text-sm transition-colors text-center uppercase"
-                            >
-                                Submit Assignment 📤
-                            </a>
+                            <div className="flex flex-col sm:flex-row gap-3">
+                                {item.detailUrl && (
+                                    item.detailUrl.startsWith('/') ? (
+                                        <Link
+                                            href={item.detailUrl}
+                                            className="inline-flex items-center justify-center gap-2 w-full bg-[#22262E] hover:bg-[#2c323f] border border-gray-700 text-white font-orbitron font-bold py-2.5 px-3 rounded-lg text-xs md:text-sm transition-colors text-center uppercase"
+                                        >
+                                            📄 Detail Mini Project
+                                        </Link>
+                                    ) : (
+                                        <a
+                                            href={item.detailUrl}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="inline-flex items-center justify-center gap-2 w-full bg-[#22262E] hover:bg-[#2c323f] border border-gray-700 text-white font-orbitron font-bold py-2.5 px-3 rounded-lg text-xs md:text-sm transition-colors text-center uppercase"
+                                        >
+                                            📄 Detail Mini Project
+                                        </a>
+                                    )
+                                )}
+                                {item.submitUrl && (
+                                    <a
+                                        href={item.submitUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center justify-center gap-2 w-full bg-[#2E53B0] hover:bg-blue-600 text-white font-orbitron font-bold py-2.5 px-4 rounded-lg text-xs md:text-sm transition-colors text-center uppercase"
+                                    >
+                                        📤 Pengumpulan Mini Project
+                                    </a>
+                                )}
+                            </div>
                         </div>
                     ))}
                 </div>
