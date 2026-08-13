@@ -291,7 +291,7 @@ export default function MiniProjectHtmlDetail() {
                     </Link>
 
                     <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSdn9kXbg6rfKoV6FdL02vII1aoDiNvA6E_lhVxN-bG45-4IAw/viewform?usp=dialog"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLScoDiL4vfQflyct_Ct-LSVy6OJxmaDz94SOOpEoDng0pSXqRA/viewform?usp=dialog"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#2E53B0] hover:bg-blue-600 text-white font-orbitron font-bold py-3.5 px-8 rounded-xl text-sm transition-colors uppercase text-center shadow-lg hover:shadow-blue-500/25"
