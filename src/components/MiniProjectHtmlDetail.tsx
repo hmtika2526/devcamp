@@ -5,7 +5,7 @@ import Link from 'next/link';
 import ScrollFloat from '../utils/ScrollFloat';
 
 export default function MiniProjectHtmlDetail() {
-    const [activeTab, setActiveTab] = useState<'pengantar' | 'pengumpulan'>('pengantar');
+    const [activeTab, setActiveTab] = useState<'pengantar'>('pengantar');
 
     return (
         <div className="py-12 pt-[120px] container mx-auto text-white px-4 md:px-10 max-w-5xl">
@@ -22,51 +22,31 @@ export default function MiniProjectHtmlDetail() {
                     stagger={0.03}
                     ease="back.inOut(2)"
                 >
-                    MINI PROJECT 2
+                    MINI PROJECT DEVCAMP
                 </ScrollFloat>
 
                 <h2 className="text-blue-400 font-orbitron font-bold text-xl md:text-2xl tracking-wide uppercase mb-3">
-                    HTML Landing Page Challenge
+                    HTML LANDING PAGE CHALLENGE
                 </h2>
-
-                <p className="text-gray-300 font-sans max-w-2xl mx-auto text-xs md:text-sm leading-relaxed">
-                    Petunjuk lengkap deskripsi, kriteria wajib (technical checklist), serta mekanisme pengumpulan Mini Project HTML DevCamp HMTIKA Batch 2.
-                </p>
             </div>
 
-            {/* 2 Navigation Tabs */}
-            <div className="flex items-center justify-center gap-3 mb-8 bg-[#171a26] p-2 rounded-2xl border border-gray-800 sticky top-[80px] z-20 backdrop-blur-md bg-opacity-90 max-w-md mx-auto">
+            {/* Single Navigation Tab: Pengantar */}
+            <div className="flex items-center justify-center mb-8 bg-[#171a26] p-2 rounded-2xl border border-gray-800 sticky top-[80px] z-20 backdrop-blur-md bg-opacity-90 max-w-xs mx-auto">
                 <button
                     onClick={() => setActiveTab('pengantar')}
-                    className={`flex-1 py-3 px-6 rounded-xl font-orbitron text-xs md:text-sm font-bold transition-all duration-300 flex items-center justify-center gap-2 ${
-                        activeTab === 'pengantar'
-                            ? 'bg-[#2E53B0] text-white shadow-lg shadow-blue-500/25 border border-blue-400/50'
-                            : 'bg-[#1e1e2f] text-gray-400 hover:text-white hover:bg-[#28283f] border border-transparent'
-                    }`}
+                    className="w-full py-3 px-6 rounded-xl font-orbitron text-xs md:text-sm font-bold transition-all duration-300 flex items-center justify-center gap-2 bg-[#2E53B0] text-white shadow-lg shadow-blue-500/25 border border-blue-400/50"
                 >
-                    <span>📌</span> Deskripsi & Kriteria
-                </button>
-
-                <button
-                    onClick={() => setActiveTab('pengumpulan')}
-                    className={`flex-1 py-3 px-6 rounded-xl font-orbitron text-xs md:text-sm font-bold transition-all duration-300 flex items-center justify-center gap-2 ${
-                        activeTab === 'pengumpulan'
-                            ? 'bg-[#2E53B0] text-white shadow-lg shadow-blue-500/25 border border-blue-400/50'
-                            : 'bg-[#1e1e2f] text-gray-400 hover:text-white hover:bg-[#28283f] border border-transparent'
-                    }`}
-                >
-                    <span>📤</span> Pengumpulan
+                    <span>📌</span> Pengantar
                 </button>
             </div>
 
             {/* Main Content Area */}
             <div className="bg-[#1e1e2f] border border-[#2E53B0]/40 rounded-2xl p-6 md:p-10 shadow-[0_0_35px_rgba(46,83,176,0.15)] min-h-[400px]">
                 
-                {/* TAB 1: DESKRIPSI & KRITERIA WAJIB */}
                 {activeTab === 'pengantar' && (
-                    <div className="space-y-8 animate-fadeIn">
+                    <div className="space-y-8 animate-fadeIn font-sans text-gray-300">
                         {/* Quick Summary Bar */}
-                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <div className="bg-[#171a26] border border-gray-800 rounded-xl p-4 flex items-center gap-3">
                                 <span className="text-2xl">⏰</span>
                                 <div>
@@ -78,209 +58,57 @@ export default function MiniProjectHtmlDetail() {
                             <div className="bg-[#171a26] border border-gray-800 rounded-xl p-4 flex items-center gap-3">
                                 <span className="text-2xl">💻</span>
                                 <div>
-                                    <span className="text-gray-400 text-xs font-orbitron block uppercase">Tipe Project</span>
-                                    <span className="text-white text-sm font-orbitron font-bold">HTML Landing Page</span>
-                                </div>
-                            </div>
-
-                            <div className="bg-[#171a26] border border-gray-800 rounded-xl p-4 flex items-center gap-3">
-                                <span className="text-2xl">🎯</span>
-                                <div>
-                                    <span className="text-gray-400 text-xs font-orbitron block uppercase">Pilihan Studi Kasus</span>
-                                    <span className="text-white text-sm font-orbitron font-bold">Pilih 1 dari 3 Topik</span>
+                                    <span className="text-gray-400 text-xs font-orbitron block uppercase">Project</span>
+                                    <span className="text-white text-sm font-orbitron font-bold">HTML Landing Page Challenge</span>
                                 </div>
                             </div>
                         </div>
 
-                        {/* Section 1: Deskripsi & Studi Kasus */}
+                        {/* Deskripsi */}
                         <div className="bg-[#171a26] border border-gray-800 rounded-xl p-6 md:p-8">
-                            <div className="flex items-center gap-3 mb-4 pb-3 border-b border-gray-800">
-                                <span className="bg-[#2E53B0] text-white p-2 rounded-lg text-lg">💡</span>
-                                <h3 className="font-orbitron font-bold text-xl text-white">Deskripsi & Pilihan Studi Kasus</h3>
-                            </div>
-
-                            <div className="space-y-4 font-sans text-gray-300 text-sm md:text-base leading-relaxed">
-                                <p>
-                                    Pilih salah satu dari 3 studi kasus di bawah ini, lalu buat struktur <strong className="text-white">HTML lengkap</strong> yang rapi dan sesuai dengan standar Semantic HTML:
-                                </p>
-
-                                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
-                                    <div className="bg-[#22262E] p-4 rounded-xl border border-gray-800 text-center hover:border-blue-400/50 transition-colors">
-                                        <span className="text-3xl block mb-2">🎟️</span>
-                                        <h4 className="font-orbitron font-bold text-white text-sm mb-1">1. Webinar Event</h4>
-                                        <p className="text-xs text-gray-400">Landing page pendaftaran webinar / seminar teknologi.</p>
-                                    </div>
-
-                                    <div className="bg-[#22262E] p-4 rounded-xl border border-gray-800 text-center hover:border-blue-400/50 transition-colors">
-                                        <span className="text-3xl block mb-2">☕</span>
-                                        <h4 className="font-orbitron font-bold text-white text-sm mb-1">2. Cafe Catalog</h4>
-                                        <p className="text-xs text-gray-400">Landing page katalog menu & daftar harga cafe / resto.</p>
-                                    </div>
-
-                                    <div className="bg-[#22262E] p-4 rounded-xl border border-gray-800 text-center hover:border-blue-400/50 transition-colors">
-                                        <span className="text-3xl block mb-2">💻</span>
-                                        <h4 className="font-orbitron font-bold text-white text-sm mb-1">3. Jasa Tech</h4>
-                                        <p className="text-xs text-gray-400">Landing page penawaran layanan / jasa software house.</p>
-                                    </div>
-                                </div>
-                            </div>
+                            <h3 className="font-orbitron font-bold text-xl text-white mb-3 flex items-center gap-2 pb-3 border-b border-gray-800">
+                                <span>💡</span> Deskripsi:
+                            </h3>
+                            <p className="text-sm md:text-base leading-relaxed text-gray-200">
+                                Pilih salah satu studi kasus (Webinar Event / Cafe Catalog / Jasa Tech), lalu buat struktur HTML-nya!
+                            </p>
                         </div>
 
-                        {/* Section 2: Kriteria Wajib (Technical Checklist) */}
+                        {/* Kriteria Wajib (Technical Checklist) */}
                         <div className="bg-[#171a26] border border-gray-800 rounded-xl p-6 md:p-8">
-                            <div className="flex items-center gap-3 mb-6 pb-3 border-b border-gray-800">
-                                <span className="bg-[#2E53B0] text-white p-2 rounded-lg text-lg">📋</span>
-                                <h3 className="font-orbitron font-bold text-xl text-white">Kriteria Wajib (Technical Checklist)</h3>
-                            </div>
+                            <h3 className="font-orbitron font-bold text-xl text-white mb-4 flex items-center gap-2 pb-3 border-b border-gray-800">
+                                <span>📋</span> Kriteria Wajib (Technical Checklist):
+                            </h3>
 
-                            <div className="space-y-4 font-sans">
-                                {/* 1. Semantic HTML */}
-                                <div className="bg-[#22262E] border border-gray-800 rounded-xl p-4 md:p-5 flex items-start gap-3">
-                                    <span className="bg-blue-600 text-white font-orbitron font-bold text-xs px-2.5 py-1 rounded-md mt-0.5">1</span>
-                                    <div>
-                                        <h4 className="font-orbitron font-bold text-white text-sm md:text-base mb-1">
-                                            Semantic HTML Full
-                                        </h4>
-                                        <p className="text-xs md:text-sm text-gray-300 mb-2">
-                                            Wajib menggunakan struktur elemen HTML5 modern:
-                                        </p>
-                                        <div className="flex flex-wrap gap-1.5 font-mono text-xs text-blue-300">
-                                            <span className="bg-[#171a26] px-2 py-0.5 rounded border border-gray-700">&lt;header&gt;</span>
-                                            <span className="bg-[#171a26] px-2 py-0.5 rounded border border-gray-700">&lt;nav&gt;</span>
-                                            <span className="bg-[#171a26] px-2 py-0.5 rounded border border-gray-700">&lt;main&gt;</span>
-                                            <span className="bg-[#171a26] px-2 py-0.5 rounded border border-gray-700">&lt;section&gt;</span>
-                                            <span className="bg-[#171a26] px-2 py-0.5 rounded border border-gray-700">&lt;article&gt;</span>
-                                            <span className="bg-[#171a26] px-2 py-0.5 rounded border border-gray-700">&lt;aside&gt;</span>
-                                            <span className="bg-[#171a26] px-2 py-0.5 rounded border border-gray-700">&lt;footer&gt;</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                {/* 2. Navigasi & Anchor Link */}
-                                <div className="bg-[#22262E] border border-gray-800 rounded-xl p-4 md:p-5 flex items-start gap-3">
-                                    <span className="bg-blue-600 text-white font-orbitron font-bold text-xs px-2.5 py-1 rounded-md mt-0.5">2</span>
-                                    <div>
-                                        <h4 className="font-orbitron font-bold text-white text-sm md:text-base mb-1">
-                                            Navigasi & Anchor Link
-                                        </h4>
-                                        <p className="text-xs md:text-sm text-gray-300">
-                                            Menu navigasi yang bisa melompat ke section terkait menggunakan atribut <code className="text-yellow-300 font-mono">href=&quot;#id-section&quot;</code>.
-                                        </p>
-                                    </div>
-                                </div>
-
-                                {/* 3. Pricing / Agenda Table */}
-                                <div className="bg-[#22262E] border border-gray-800 rounded-xl p-4 md:p-5 flex items-start gap-3">
-                                    <span className="bg-blue-600 text-white font-orbitron font-bold text-xs px-2.5 py-1 rounded-md mt-0.5">3</span>
-                                    <div>
-                                        <h4 className="font-orbitron font-bold text-white text-sm md:text-base mb-1">
-                                            Pricing / Agenda Table
-                                        </h4>
-                                        <p className="text-xs md:text-sm text-gray-300 mb-2">
-                                            Wajib memiliki minimal 1 tabel HTML (<code className="text-yellow-300 font-mono">&lt;table&gt;</code>) yang rapi menggunakan struktur tag:
-                                        </p>
-                                        <div className="flex flex-wrap gap-1.5 font-mono text-xs text-blue-300">
-                                            <span className="bg-[#171a26] px-2 py-0.5 rounded border border-gray-700">&lt;thead&gt;</span>
-                                            <span className="bg-[#171a26] px-2 py-0.5 rounded border border-gray-700">&lt;tbody&gt;</span>
-                                            <span className="bg-[#171a26] px-2 py-0.5 rounded border border-gray-700">&lt;th&gt;</span>
-                                            <span className="bg-[#171a26] px-2 py-0.5 rounded border border-gray-700">&lt;tr&gt;</span>
-                                            <span className="bg-[#171a26] px-2 py-0.5 rounded border border-gray-700">&lt;td&gt;</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                {/* 4. FAQ Section */}
-                                <div className="bg-[#22262E] border border-gray-800 rounded-xl p-4 md:p-5 flex items-start gap-3">
-                                    <span className="bg-blue-600 text-white font-orbitron font-bold text-xs px-2.5 py-1 rounded-md mt-0.5">4</span>
-                                    <div>
-                                        <h4 className="font-orbitron font-bold text-white text-sm md:text-base mb-1">
-                                            FAQ Section (Elemen Interaktif)
-                                        </h4>
-                                        <p className="text-xs md:text-sm text-gray-300">
-                                            Gunakan tag interaktif bawaan HTML <code className="text-yellow-300 font-mono">&lt;details&gt;</code> &amp; <code className="text-yellow-300 font-mono">&lt;summary&gt;</code> minimal untuk 3 pertanyaan umum.
-                                        </p>
-                                    </div>
-                                </div>
-
-                                {/* 5. Form Pendaftaran/Kontak */}
-                                <div className="bg-[#22262E] border border-gray-800 rounded-xl p-4 md:p-5 flex items-start gap-3">
-                                    <span className="bg-blue-600 text-white font-orbitron font-bold text-xs px-2.5 py-1 rounded-md mt-0.5">5</span>
-                                    <div>
-                                        <h4 className="font-orbitron font-bold text-white text-sm md:text-base mb-1">
-                                            Form Pendaftaran / Kontak yang Kaya Validasi
-                                        </h4>
-                                        <ul className="text-xs md:text-sm text-gray-300 space-y-1.5 list-disc list-inside mt-1">
-                                            <li>Minimal 4 jenis input (Nama, Email, Tanggal, Pilihan Paket via <code className="text-yellow-300 font-mono">&lt;select&gt;</code> atau radio).</li>
-                                            <li>Wajib menggunakan atribut <code className="text-yellow-300 font-mono">required</code> dan <code className="text-yellow-300 font-mono">placeholder</code>.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                {/* 6. Embedded Media */}
-                                <div className="bg-[#22262E] border border-gray-800 rounded-xl p-4 md:p-5 flex items-start gap-3">
-                                    <span className="bg-blue-600 text-white font-orbitron font-bold text-xs px-2.5 py-1 rounded-md mt-0.5">6</span>
-                                    <div>
-                                        <h4 className="font-orbitron font-bold text-white text-sm md:text-base mb-1">
-                                            Embedded Media
-                                        </h4>
-                                        <p className="text-xs md:text-sm text-gray-300 mb-2">
-                                            Wajib ada minimal 1 gambar (<code className="text-yellow-300 font-mono">&lt;img&gt;</code>) dengan atribut <code className="text-yellow-300 font-mono">alt</code>.
-                                        </p>
-                                        <div className="bg-[#2E53B0]/20 border border-blue-500/30 p-2.5 rounded-lg text-xs text-blue-300 font-orbitron flex items-center gap-2">
-                                            <span>⭐</span>
-                                            <span><strong className="text-white">Poin Plus:</strong> Penggunaan video (<code className="text-yellow-300 font-mono">&lt;video&gt;</code> / <code className="text-yellow-300 font-mono">&lt;iframe&gt;</code> Youtube) atau embed Google Maps akan menambah penilaian.</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                )}
-
-                {/* TAB 2: PENGUMPULAN */}
-                {activeTab === 'pengumpulan' && (
-                    <div className="space-y-6 animate-fadeIn">
-                        <div className="flex items-center gap-3 pb-3 border-b border-gray-800">
-                            <span className="bg-[#2E53B0] text-white p-2 rounded-lg text-lg">📤</span>
-                            <div>
-                                <h3 className="font-orbitron font-bold text-xl text-white">Mekanisme Pengumpulan</h3>
-                                <p className="text-gray-400 font-sans text-xs">Petunjuk penyampaian berkas Mini Project 2 HTML</p>
-                            </div>
-                        </div>
-
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 font-sans">
-                            <div className="bg-[#171a26] p-6 rounded-xl border border-gray-800 flex flex-col justify-between">
-                                <div>
-                                    <div className="flex items-center gap-2 mb-3">
-                                        <span className="bg-[#2E53B0] text-white font-orbitron font-bold text-xs px-2.5 py-1 rounded">BERKAS TUGAS</span>
-                                        <h4 className="font-orbitron font-bold text-base text-white">File HTML / Repositori GitHub</h4>
-                                    </div>
-                                    <p className="text-xs text-gray-400 mb-3">Peserta mengumpulkan berkas pengerjaan HTML berupa:</p>
-                                    <ul className="text-xs text-gray-300 space-y-2 list-disc list-inside bg-[#22262E] p-4 rounded-lg border border-gray-800">
-                                        <li>Link Repositori GitHub / Link Vercel (jika di-deploy)</li>
-                                        <li>Atau upload file ZIP proyek HTML pada form pengumpulan</li>
+                            <ol className="space-y-4 text-sm md:text-base text-gray-200 list-decimal list-inside">
+                                <li className="leading-relaxed">
+                                    <strong>Semantic HTML Full:</strong> <code className="text-blue-400 font-mono">&lt;header&gt;</code>, <code className="text-blue-400 font-mono">&lt;nav&gt;</code>, <code className="text-blue-400 font-mono">&lt;main&gt;</code>, <code className="text-blue-400 font-mono">&lt;section&gt;</code>, <code className="text-blue-400 font-mono">&lt;article&gt;</code>, <code className="text-blue-400 font-mono">&lt;aside&gt;</code>, <code className="text-blue-400 font-mono">&lt;footer&gt;</code>.
+                                </li>
+                                <li className="leading-relaxed">
+                                    <strong>Navigasi &amp; Anchor Link:</strong> Menu navigasi yang bisa melompat ke section terkait.
+                                </li>
+                                <li className="leading-relaxed">
+                                    <strong>Pricing / Agenda Table:</strong> Wajib memiliki 1 tabel HTML (<code className="text-blue-400 font-mono">&lt;table&gt;</code>) yang rapi dengan <code className="text-blue-400 font-mono">&lt;thead&gt;</code>, <code className="text-blue-400 font-mono">&lt;tbody&gt;</code>, <code className="text-blue-400 font-mono">&lt;th&gt;</code>, <code className="text-blue-400 font-mono">&lt;tr&gt;</code>, dan <code className="text-blue-400 font-mono">&lt;td&gt;</code>.
+                                </li>
+                                <li className="leading-relaxed">
+                                    <strong>FAQ Section (Elemen Interaktif):</strong> Gunakan tag <code className="text-blue-400 font-mono">&lt;details&gt;</code> &amp; <code className="text-blue-400 font-mono">&lt;summary&gt;</code> minimal untuk 3 pertanyaan umum.
+                                </li>
+                                <li className="leading-relaxed">
+                                    <strong>Form pendaftaran/kontak yang kaya validasi:</strong>
+                                    <ul className="list-alpha list-inside ml-6 mt-1.5 space-y-1 text-gray-300 text-sm">
+                                        <li>Minimal 4 jenis input (Nama, Email, Tanggal, Pilihan Paket via <code className="text-yellow-300 font-mono">&lt;select&gt;</code> atau radio)</li>
+                                        <li>Wajib menggunakan atribut &apos;required&apos; dan &apos;placeholder&apos;</li>
                                     </ul>
-                                </div>
-                            </div>
-
-                            <div className="bg-[#171a26] p-6 rounded-xl border border-gray-800 flex flex-col justify-between">
-                                <div>
-                                    <div className="flex items-center gap-2 mb-3">
-                                        <span className="bg-[#2E53B0] text-white font-orbitron font-bold text-xs px-2.5 py-1 rounded">FORMULIR</span>
-                                        <h4 className="font-orbitron font-bold text-base text-white">Form Pengumpulan Resmi</h4>
-                                    </div>
-                                    <p className="text-xs text-gray-400 mb-2">Pastikan pengumpulan dilakukan sebelum batas waktu:</p>
-                                    <div className="bg-[#22262E] text-yellow-300 text-xs px-3 py-2 rounded-lg font-orbitron inline-block mb-3 border border-yellow-500/30">
-                                        ⏰ 16 Agustus 2026 - 23:59 WIB
-                                    </div>
-                                    <p className="text-xs text-gray-400">Gunakan tombol pengumpulan di bawah untuk mengakses formulir Google Form resmi.</p>
-                                </div>
-                            </div>
+                                </li>
+                                <li className="leading-relaxed">
+                                    <strong>Embedded Media:</strong> Wajib ada minimal 1 gambar (<code className="text-blue-400 font-mono">&lt;img&gt;</code>) dengan atribut &apos;alt&apos;. Penggunaan video (<code className="text-blue-400 font-mono">&lt;video&gt;</code> / <code className="text-blue-400 font-mono">&lt;iframe&gt;</code> Youtube) atau embed Google Maps akan menambah penilaian.
+                                </li>
+                            </ol>
                         </div>
                     </div>
                 )}
 
-                {/* Footer Actions inside Card */}
+                {/* Footer Action Buttons */}
                 <div className="pt-6 border-t border-gray-800 flex flex-col sm:flex-row gap-4 items-center justify-between mt-8">
                     <Link
                         href="/assignment"
