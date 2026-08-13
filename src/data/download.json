@@ -129,14 +129,30 @@
   },
   {
     "id": 17,
-    "name": "Materi HTML Dasar : Slide Presentation (10 Agustus 2026)",
-    "description": "File materi presentasi HTML Dasar.",
-    "url": "#",
-    "status": "Belum Dibuka",
+    "name": "Materi HTML Dasar - Day 1 : Slide Presentation (10 Agustus 2026)",
+    "description": "File materi Canva presentasi HTML Dasar - Hari Pertama.",
+    "url": "https://canva.link/fy5wt14ijdgig2g",
+    "status": "View",
     "category": "Materi"
   },
   {
     "id": 18,
+    "name": "Materi HTML Dasar - Day 2 : Slide Presentation (11 Agustus 2026)",
+    "description": "File materi Canva presentasi HTML Dasar - Hari Kedua.",
+    "url": "https://canva.link/nw5ri3rj71b7ku2",
+    "status": "View",
+    "category": "Materi"
+  },
+  {
+    "id": 19,
+    "name": "Materi HTML Dasar - Day 3 : Slide Presentation (12 Agustus 2026)",
+    "description": "File materi Canva presentasi HTML Dasar - Hari Ketiga.",
+    "url": "https://canva.link/81otit7gxbcigvz",
+    "status": "View",
+    "category": "Materi"
+  },
+  {
+    "id": 20,
     "name": "Materi CSS & Tailwind CSS : Slide Presentation (17 Agustus 2026)",
     "description": "File materi presentasi CSS, Responsive Design & Tailwind CSS.",
     "url": "#",
@@ -144,7 +160,7 @@
     "category": "Materi"
   },
   {
-    "id": 19,
+    "id": 21,
     "name": "Materi Deployment & Hosting : Slide Presentation (19 Agustus 2026)",
     "description": "File materi presentasi Deployment & Hosting web.",
     "url": "#",
@@ -152,7 +168,7 @@
     "category": "Materi"
   },
   {
-    "id": 20,
+    "id": 22,
     "name": "Final Project Briefing : Panduan & Slide Briefing (21 Agustus 2026)",
     "description": "File dokumen petunjuk & ketentuan Final Project DevCamp.",
     "url": "#",
