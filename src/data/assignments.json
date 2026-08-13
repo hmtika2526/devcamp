@@ -7,5 +7,14 @@
     "description": "Pengumpulan hasil pengerjaan Mini Project 1 DevCamp. Pastikan membaca detail instruksi tugas sebelum melakukan pengumpulan.",
     "detailUrl": "/assignment/mini-project",
     "submitUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdn9kXbg6rfKoV6FdL02vII1aoDiNvA6E_lhVxN-bG45-4IAw/viewform?usp=dialog"
+  },
+  {
+    "id": "assign-2",
+    "type": "Mini Project",
+    "title": "Mini Project 2: HTML Landing Page Challenge",
+    "deadline": "16 Agustus 2026 - 23:59 WIB",
+    "description": "Pengumpulan hasil pengerjaan Mini Project 2 DevCamp (HTML Landing Page Challenge). Pastikan membaca detail instruksi tugas sebelum melakukan pengumpulan.",
+    "detailUrl": "/assignment/mini-project-html",
+    "submitUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdn9kXbg6rfKoV6FdL02vII1aoDiNvA6E_lhVxN-bG45-4IAw/viewform?usp=dialog"
   }
 ]
