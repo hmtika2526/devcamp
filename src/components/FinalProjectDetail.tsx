@@ -219,36 +219,14 @@ export default function FinalProjectDetail() {
                 )}
 
                 {/* Footer Action Buttons */}
-                <div className="pt-6 border-t border-gray-800 flex flex-col sm:flex-row gap-4 items-center justify-between mt-8">
+                <div className="pt-6 border-t border-gray-800 flex items-center justify-start mt-8">
                     <Link
                         href="/assignment"
-                        className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#22262E] hover:bg-[#2c323f] border border-gray-700 text-white font-orbitron font-bold py-3.5 px-6 rounded-xl text-sm transition-colors"
+                        className="inline-flex items-center justify-center gap-2 bg-[#22262E] hover:bg-[#2c323f] border border-gray-700 text-white font-orbitron font-bold py-3.5 px-6 rounded-xl text-sm transition-colors"
                     >
                         <span>⬅️</span>
                         <span>Kembali ke Task Submission</span>
                     </Link>
-
-                    <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
-                        <a
-                            href={submitFormUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center justify-center gap-2 bg-[#2E53B0] hover:bg-blue-600 text-white font-orbitron font-bold py-3.5 px-6 rounded-xl text-xs md:text-sm transition-colors uppercase text-center shadow-lg hover:shadow-blue-500/25"
-                        >
-                            <span>Berkas Project</span>
-                            <span>📤</span>
-                        </a>
-
-                        <a
-                            href={submitVideoUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center justify-center gap-2 bg-[#2E53B0] hover:bg-blue-600 text-white font-orbitron font-bold py-3.5 px-6 rounded-xl text-xs md:text-sm transition-colors uppercase text-center shadow-lg hover:shadow-blue-500/25"
-                        >
-                            <span>Video Presentasi</span>
-                            <span>🎬</span>
-                        </a>
-                    </div>
                 </div>
 
             </div>
