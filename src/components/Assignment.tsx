@@ -5,6 +5,20 @@ import Link from 'next/link';
 import ScrollFloat from '../utils/ScrollFloat';
 import assignments from '../data/assignments.json';
 
+interface AssignmentItem {
+    id: string;
+    type: string;
+    title: string;
+    deadline: string;
+    description: string;
+    detailUrl?: string;
+    detailLabel?: string;
+    themeUrl?: string;
+    themeLabel?: string;
+    submitUrl?: string;
+    submitLabel?: string;
+}
+
 export default function Assignment() {
     return (
         <div className="py-12 pt-[120px] container mx-auto text-white px-4 md:px-10">
@@ -23,7 +37,7 @@ export default function Assignment() {
 
             {assignments.length > 0 ? (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-                    {assignments.map((item) => (
+                    {(assignments as AssignmentItem[]).map((item) => (
                         <div
                             key={item.id}
                             className="bg-[#1e1e2f] border border-[#2E53B0] rounded-xl p-6 flex flex-col justify-between hover:border-blue-400 transition-all duration-300 shadow-md"
@@ -46,14 +60,14 @@ export default function Assignment() {
                                 </div>
                             </div>
 
-                            <div className="flex flex-col sm:flex-row gap-3">
+                            <div className="flex flex-col gap-2.5">
                                 {item.detailUrl && (
                                     item.detailUrl.startsWith('/') ? (
                                         <Link
                                             href={item.detailUrl}
                                             className="inline-flex items-center justify-center gap-2 w-full bg-[#22262E] hover:bg-[#2c323f] border border-gray-700 text-white font-orbitron font-bold py-2.5 px-3 rounded-lg text-xs md:text-sm transition-colors text-center uppercase"
                                         >
-                                            📄 Detail Mini Project
+                                            {item.detailLabel || "📄 Detail Mini Project"}
                                         </Link>
                                     ) : (
                                         <a
@@ -62,10 +76,22 @@ export default function Assignment() {
                                             rel="noopener noreferrer"
                                             className="inline-flex items-center justify-center gap-2 w-full bg-[#22262E] hover:bg-[#2c323f] border border-gray-700 text-white font-orbitron font-bold py-2.5 px-3 rounded-lg text-xs md:text-sm transition-colors text-center uppercase"
                                         >
-                                            📄 Detail Mini Project
+                                            {item.detailLabel || "📄 Detail Mini Project"}
                                         </a>
                                     )
                                 )}
+
+                                {item.themeUrl && (
+                                    <a
+                                        href={item.themeUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center justify-center gap-2 w-full bg-[#22262E] hover:bg-[#2c323f] border border-gray-700 text-blue-400 font-orbitron font-bold py-2.5 px-3 rounded-lg text-xs md:text-sm transition-colors text-center uppercase"
+                                    >
+                                        {item.themeLabel || "🎨 Tema Final Project"}
+                                    </a>
+                                )}
+
                                 {item.submitUrl && (
                                     <a
                                         href={item.submitUrl}
@@ -73,7 +99,7 @@ export default function Assignment() {
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center justify-center gap-2 w-full bg-[#2E53B0] hover:bg-blue-600 text-white font-orbitron font-bold py-2.5 px-4 rounded-lg text-xs md:text-sm transition-colors text-center uppercase"
                                     >
-                                        📤 Pengumpulan Mini Project
+                                        {item.submitLabel || "📤 Pengumpulan Mini Project"}
                                     </a>
                                 )}
                             </div>
