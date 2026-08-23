@@ -9,8 +9,8 @@ export default function FinalProjectDetail() {
 
     const detailDocUrl = "https://docs.google.com/document/d/19cvyScfybls4N0lq4oxD_1Zn_jiu3lf4/edit?usp=sharing&ouid=109895538476905398633&rtpof=true&sd=true";
     const themeDocUrl = "https://docs.google.com/document/d/1YIQjGdevvOujH8YzGHjzqkjOnWn5DI0i/edit?usp=sharing&ouid=109895538476905398633&rtpof=true&sd=true";
-    const submitFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdn9kXbg6rfKoV6FdL02vII1aoDiNvA6E_lhVxN-bG45-4IAw/viewform?usp=dialog";
-    const submitVideoUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdn9kXbg6rfKoV6FdL02vII1aoDiNvA6E_lhVxN-bG45-4IAw/viewform?usp=dialog";
+    const submitFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeDsRm_PMPz3OHAy-prr9x_RhAeHhUPYVnvmEo8A0LG-L7EEQ/viewform?usp=header";
+    const submitVideoUrl = "https://docs.google.com/forms/d/e/1FAIpQLSc8jBFW30Y9EysZXEQHZdtbWz_I8Gwxqr5lMqugcsjyZ7ZVRQ/viewform?usp=header";
 
     return (
         <div className="py-12 pt-[120px] container mx-auto text-white px-4 md:px-10 max-w-5xl">
