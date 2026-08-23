@@ -17,6 +17,8 @@ interface AssignmentItem {
     themeLabel?: string;
     submitUrl?: string;
     submitLabel?: string;
+    submitVideoUrl?: string;
+    submitVideoLabel?: string;
 }
 
 export default function Assignment() {
@@ -100,6 +102,17 @@ export default function Assignment() {
                                         className="inline-flex items-center justify-center gap-2 w-full bg-[#2E53B0] hover:bg-blue-600 text-white font-orbitron font-bold py-2.5 px-4 rounded-lg text-xs md:text-sm transition-colors text-center uppercase"
                                     >
                                         {item.submitLabel || "📤 Pengumpulan Mini Project"}
+                                    </a>
+                                )}
+
+                                {item.submitVideoUrl && (
+                                    <a
+                                        href={item.submitVideoUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center justify-center gap-2 w-full bg-red-600 hover:bg-red-500 text-white font-orbitron font-bold py-2.5 px-4 rounded-lg text-xs md:text-sm transition-colors text-center uppercase"
+                                    >
+                                        {item.submitVideoLabel || "🎬 Pengumpulan Video Presentasi"}
                                     </a>
                                 )}
                             </div>

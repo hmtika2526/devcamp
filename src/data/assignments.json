@@ -26,10 +26,12 @@
     "type": "Final Project",
     "title": "Final Project DevCamp Batch 2",
     "deadline": "30 Agustus 2026 - 23:59 WIB",
-    "description": "Pengumpulan hasil pengerjaan Final Project DevCamp. Pastikan membaca detail instruksi, kriteria, dan dokumen tema sebelum melakukan pengumpulan.",
+    "description": "Pengumpulan berkas pengerjaan & video presentasi Final Project DevCamp. Pastikan membaca detail instruksi, kriteria, dan dokumen tema sebelum melakukan pengumpulan.",
     "detailUrl": "/assignment/final-project",
     "detailLabel": "📄 Detail Final Project",
     "submitUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdn9kXbg6rfKoV6FdL02vII1aoDiNvA6E_lhVxN-bG45-4IAw/viewform?usp=dialog",
-    "submitLabel": "📤 Pengumpulan Final Project"
+    "submitLabel": "📤 Pengumpulan Berkas Project",
+    "submitVideoUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdn9kXbg6rfKoV6FdL02vII1aoDiNvA6E_lhVxN-bG45-4IAw/viewform?usp=dialog",
+    "submitVideoLabel": "🎬 Pengumpulan Video Presentasi"
   }
 ]

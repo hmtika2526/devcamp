@@ -10,6 +10,7 @@ export default function FinalProjectDetail() {
     const detailDocUrl = "https://docs.google.com/document/d/19cvyScfybls4N0lq4oxD_1Zn_jiu3lf4/edit?usp=sharing&ouid=109895538476905398633&rtpof=true&sd=true";
     const themeDocUrl = "https://docs.google.com/document/d/1YIQjGdevvOujH8YzGHjzqkjOnWn5DI0i/edit?usp=sharing&ouid=109895538476905398633&rtpof=true&sd=true";
     const submitFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdn9kXbg6rfKoV6FdL02vII1aoDiNvA6E_lhVxN-bG45-4IAw/viewform?usp=dialog";
+    const submitVideoUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdn9kXbg6rfKoV6FdL02vII1aoDiNvA6E_lhVxN-bG45-4IAw/viewform?usp=dialog";
 
     return (
         <div className="py-12 pt-[120px] container mx-auto text-white px-4 md:px-10 max-w-5xl">
@@ -34,7 +35,7 @@ export default function FinalProjectDetail() {
                 </h2>
 
                 <p className="text-gray-300 font-sans max-w-2xl mx-auto text-xs md:text-sm leading-relaxed">
-                    Pusat instruksi resmi, akses dokumen penjelasan kriteria, dokumen pilihan tema, serta mekanisme pengumpulan Final Project.
+                    Pusat instruksi resmi, akses dokumen penjelasan kriteria, dokumen pilihan tema, serta mekanisme pengumpulan berkas &amp; video presentasi Final Project.
                 </p>
             </div>
 
@@ -73,10 +74,10 @@ export default function FinalProjectDetail() {
                             </div>
 
                             <div className="bg-[#171a26] border border-gray-800 rounded-xl p-4 flex items-center gap-3">
-                                <span className="text-2xl">📄</span>
+                                <span className="text-2xl">🎬</span>
                                 <div>
-                                    <span className="text-gray-400 text-xs font-orbitron block uppercase">Dokumen Utama</span>
-                                    <span className="text-white text-sm font-orbitron font-bold">Kriteria &amp; Tema Resmi</span>
+                                    <span className="text-gray-400 text-xs font-orbitron block uppercase">Komponen Pengumpulan</span>
+                                    <span className="text-white text-sm font-orbitron font-bold">Berkas &amp; Video Presentasi</span>
                                 </div>
                             </div>
                         </div>
@@ -153,6 +154,67 @@ export default function FinalProjectDetail() {
                             </div>
                         </div>
 
+                        {/* Submission Cards Section */}
+                        <div className="space-y-4 pt-4 border-t border-gray-800">
+                            <h3 className="font-orbitron font-bold text-xl text-white flex items-center gap-2">
+                                <span>📤</span> Portal Pengumpulan Final Project
+                            </h3>
+
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                {/* Card 1: Pengumpulan Berkas */}
+                                <div className="bg-[#171a26] border border-gray-800 rounded-2xl p-6 flex flex-col justify-between hover:border-blue-500/50 transition-all duration-300">
+                                    <div>
+                                        <div className="flex items-center gap-3 mb-3">
+                                            <span className="bg-blue-600 text-white p-2.5 rounded-xl text-xl">📦</span>
+                                            <div>
+                                                <h4 className="font-orbitron font-bold text-white text-base">Pengumpulan Berkas Project</h4>
+                                                <span className="text-xs text-blue-400 font-orbitron">Google Form Official</span>
+                                            </div>
+                                        </div>
+                                        <p className="text-xs md:text-sm text-gray-300 leading-relaxed mb-6">
+                                            Formulir pengumpulan berkas web aplikasi, link repositori GitHub, link live demo, dan laporan dokumentasi Final Project.
+                                        </p>
+                                    </div>
+
+                                    <a
+                                        href={submitFormUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center justify-center gap-2 w-full bg-[#2E53B0] hover:bg-blue-600 text-white font-orbitron font-bold py-3 px-4 rounded-xl text-xs md:text-sm transition-colors text-center uppercase shadow-md"
+                                    >
+                                        <span>Pengumpulan Berkas Project</span>
+                                        <span>📤</span>
+                                    </a>
+                                </div>
+
+                                {/* Card 2: Pengumpulan Video Presentasi */}
+                                <div className="bg-[#171a26] border border-gray-800 rounded-2xl p-6 flex flex-col justify-between hover:border-red-500/50 transition-all duration-300">
+                                    <div>
+                                        <div className="flex items-center gap-3 mb-3">
+                                            <span className="bg-red-600 text-white p-2.5 rounded-xl text-xl">🎬</span>
+                                            <div>
+                                                <h4 className="font-orbitron font-bold text-white text-base">Pengumpulan Video Presentasi</h4>
+                                                <span className="text-xs text-red-400 font-orbitron">Google Form Official</span>
+                                            </div>
+                                        </div>
+                                        <p className="text-xs md:text-sm text-gray-300 leading-relaxed mb-6">
+                                            Formulir pengumpulan rekaman video presentasi &amp; penjelasan demo fitur karya Final Project yang telah diunggah oleh peserta.
+                                        </p>
+                                    </div>
+
+                                    <a
+                                        href={submitVideoUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center justify-center gap-2 w-full bg-red-600 hover:bg-red-500 text-white font-orbitron font-bold py-3 px-4 rounded-xl text-xs md:text-sm transition-colors text-center uppercase shadow-md"
+                                    >
+                                        <span>Pengumpulan Video Presentasi</span>
+                                        <span>🎬</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 )}
 
@@ -166,15 +228,27 @@ export default function FinalProjectDetail() {
                         <span>Kembali ke Task Submission</span>
                     </Link>
 
-                    <a
-                        href={submitFormUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#2E53B0] hover:bg-blue-600 text-white font-orbitron font-bold py-3.5 px-8 rounded-xl text-sm transition-colors uppercase text-center shadow-lg hover:shadow-blue-500/25"
-                    >
-                        <span>Pengumpulan Final Project</span>
-                        <span>📤</span>
-                    </a>
+                    <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+                        <a
+                            href={submitFormUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center justify-center gap-2 bg-[#2E53B0] hover:bg-blue-600 text-white font-orbitron font-bold py-3.5 px-6 rounded-xl text-xs md:text-sm transition-colors uppercase text-center shadow-lg hover:shadow-blue-500/25"
+                        >
+                            <span>Berkas Project</span>
+                            <span>📤</span>
+                        </a>
+
+                        <a
+                            href={submitVideoUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center justify-center gap-2 bg-red-600 hover:bg-red-500 text-white font-orbitron font-bold py-3.5 px-6 rounded-xl text-xs md:text-sm transition-colors uppercase text-center shadow-lg hover:shadow-red-500/25"
+                        >
+                            <span>Video Presentasi</span>
+                            <span>🎬</span>
+                        </a>
+                    </div>
                 </div>
 
             </div>
