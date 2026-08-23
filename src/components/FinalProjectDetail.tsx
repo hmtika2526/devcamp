@@ -35,7 +35,7 @@ export default function FinalProjectDetail() {
                 </h2>
 
                 <p className="text-gray-300 font-sans max-w-2xl mx-auto text-xs md:text-sm leading-relaxed">
-                    Pusat instruksi resmi, akses dokumen penjelasan kriteria, dokumen pilihan tema, serta mekanisme pengumpulan berkas &amp; video presentasi Final Project.
+                    Pusat instruksi resmi, akses dokumen penjelasan kriteria, dokumen pilihan tema, serta portal pengumpulan berkas &amp; video presentasi Final Project.
                 </p>
             </div>
 
@@ -101,10 +101,10 @@ export default function FinalProjectDetail() {
 
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 {/* Card 1: Penjelasan & Kriteria */}
-                                <div className="bg-[#171a26] border border-gray-800 rounded-2xl p-6 flex flex-col justify-between hover:border-blue-500/50 transition-all duration-300">
+                                <div className="bg-[#171a26] border border-gray-800 rounded-2xl p-6 flex flex-col justify-between hover:border-[#2E53B0]/70 transition-all duration-300">
                                     <div>
                                         <div className="flex items-center gap-3 mb-3">
-                                            <span className="bg-blue-600 text-white p-2.5 rounded-xl text-xl">📄</span>
+                                            <span className="bg-[#2E53B0] text-white p-2.5 rounded-xl text-xl">📄</span>
                                             <div>
                                                 <h4 className="font-orbitron font-bold text-white text-base">Dokumen Penjelasan &amp; Kriteria</h4>
                                                 <span className="text-xs text-blue-400 font-orbitron">Google Docs Official</span>
@@ -127,13 +127,13 @@ export default function FinalProjectDetail() {
                                 </div>
 
                                 {/* Card 2: Pilihan Tema */}
-                                <div className="bg-[#171a26] border border-gray-800 rounded-2xl p-6 flex flex-col justify-between hover:border-blue-500/50 transition-all duration-300">
+                                <div className="bg-[#171a26] border border-gray-800 rounded-2xl p-6 flex flex-col justify-between hover:border-[#2E53B0]/70 transition-all duration-300">
                                     <div>
                                         <div className="flex items-center gap-3 mb-3">
-                                            <span className="bg-purple-600 text-white p-2.5 rounded-xl text-xl">🎨</span>
+                                            <span className="bg-[#2E53B0] text-white p-2.5 rounded-xl text-xl">🎨</span>
                                             <div>
                                                 <h4 className="font-orbitron font-bold text-white text-base">Dokumen Tema Final Project</h4>
-                                                <span className="text-xs text-purple-400 font-orbitron">Google Docs Official</span>
+                                                <span className="text-xs text-blue-400 font-orbitron">Google Docs Official</span>
                                             </div>
                                         </div>
                                         <p className="text-xs md:text-sm text-gray-300 leading-relaxed mb-6">
@@ -145,7 +145,7 @@ export default function FinalProjectDetail() {
                                         href={themeDocUrl}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="inline-flex items-center justify-center gap-2 w-full bg-purple-700 hover:bg-purple-600 text-white font-orbitron font-bold py-3 px-4 rounded-xl text-xs md:text-sm transition-colors text-center uppercase shadow-md"
+                                        className="inline-flex items-center justify-center gap-2 w-full bg-[#2E53B0] hover:bg-blue-600 text-white font-orbitron font-bold py-3 px-4 rounded-xl text-xs md:text-sm transition-colors text-center uppercase shadow-md"
                                     >
                                         <span>Buka Dokumen Tema</span>
                                         <span>↗️</span>
@@ -162,10 +162,10 @@ export default function FinalProjectDetail() {
 
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 {/* Card 1: Pengumpulan Berkas */}
-                                <div className="bg-[#171a26] border border-gray-800 rounded-2xl p-6 flex flex-col justify-between hover:border-blue-500/50 transition-all duration-300">
+                                <div className="bg-[#171a26] border border-gray-800 rounded-2xl p-6 flex flex-col justify-between hover:border-[#2E53B0]/70 transition-all duration-300">
                                     <div>
                                         <div className="flex items-center gap-3 mb-3">
-                                            <span className="bg-blue-600 text-white p-2.5 rounded-xl text-xl">📦</span>
+                                            <span className="bg-[#2E53B0] text-white p-2.5 rounded-xl text-xl">📦</span>
                                             <div>
                                                 <h4 className="font-orbitron font-bold text-white text-base">Pengumpulan Berkas Project</h4>
                                                 <span className="text-xs text-blue-400 font-orbitron">Google Form Official</span>
@@ -188,13 +188,13 @@ export default function FinalProjectDetail() {
                                 </div>
 
                                 {/* Card 2: Pengumpulan Video Presentasi */}
-                                <div className="bg-[#171a26] border border-gray-800 rounded-2xl p-6 flex flex-col justify-between hover:border-red-500/50 transition-all duration-300">
+                                <div className="bg-[#171a26] border border-gray-800 rounded-2xl p-6 flex flex-col justify-between hover:border-[#2E53B0]/70 transition-all duration-300">
                                     <div>
                                         <div className="flex items-center gap-3 mb-3">
-                                            <span className="bg-red-600 text-white p-2.5 rounded-xl text-xl">🎬</span>
+                                            <span className="bg-[#2E53B0] text-white p-2.5 rounded-xl text-xl">🎬</span>
                                             <div>
                                                 <h4 className="font-orbitron font-bold text-white text-base">Pengumpulan Video Presentasi</h4>
-                                                <span className="text-xs text-red-400 font-orbitron">Google Form Official</span>
+                                                <span className="text-xs text-blue-400 font-orbitron">Google Form Official</span>
                                             </div>
                                         </div>
                                         <p className="text-xs md:text-sm text-gray-300 leading-relaxed mb-6">
@@ -206,7 +206,7 @@ export default function FinalProjectDetail() {
                                         href={submitVideoUrl}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="inline-flex items-center justify-center gap-2 w-full bg-red-600 hover:bg-red-500 text-white font-orbitron font-bold py-3 px-4 rounded-xl text-xs md:text-sm transition-colors text-center uppercase shadow-md"
+                                        className="inline-flex items-center justify-center gap-2 w-full bg-[#2E53B0] hover:bg-blue-600 text-white font-orbitron font-bold py-3 px-4 rounded-xl text-xs md:text-sm transition-colors text-center uppercase shadow-md"
                                     >
                                         <span>Pengumpulan Video Presentasi</span>
                                         <span>🎬</span>
@@ -243,7 +243,7 @@ export default function FinalProjectDetail() {
                             href={submitVideoUrl}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center justify-center gap-2 bg-red-600 hover:bg-red-500 text-white font-orbitron font-bold py-3.5 px-6 rounded-xl text-xs md:text-sm transition-colors uppercase text-center shadow-lg hover:shadow-red-500/25"
+                            className="inline-flex items-center justify-center gap-2 bg-[#2E53B0] hover:bg-blue-600 text-white font-orbitron font-bold py-3.5 px-6 rounded-xl text-xs md:text-sm transition-colors uppercase text-center shadow-lg hover:shadow-blue-500/25"
                         >
                             <span>Video Presentasi</span>
                             <span>🎬</span>
