@@ -125,7 +125,6 @@ export default function Navbar() {
         },
         {
             name: "COMMUNITY & SHOWCASE",
-            disabled: true,
             children: [
                 { name: 'PROJECT SHOWCASE', path: '/submission' },
                 { name: 'BEST PARTICIPANTS', path: '/reward' },
