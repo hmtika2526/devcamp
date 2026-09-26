@@ -34,7 +34,10 @@ export default function SubmissionIndex() {
 
 			{/* Daftar Submission */}
 			<div className="mt-10 relative w-full px-4 md:px-20 mx-auto">
-				{submissionData.map((item) => (
+				{(submissionData as any[]).length === 0 ? (
+					<p className="text-center text-gray-400">Belum ada tugas submission saat ini.</p>
+				) : (
+					(submissionData as any[]).map((item) => (
 					<div key={item.id}>
 						<div className="flex flex-col md:flex-row md:items-center mb-3 justify-start md:justify-between bg-[#1e1e2f] p-4 rounded-xl shadow-lg">
 							<a
@@ -64,7 +67,7 @@ export default function SubmissionIndex() {
 							)}
 						</div>
 					</div>
-				))}
+				)))}
 			</div>
 
 			<SubmissionCapstone />

@@ -13,6 +13,12 @@ export default function DokumentasiClosingGrid({
   activeCDN, 
   onImageClick 
 }: DokumentasiClosingGridProps) {
+  if (!imageUrls || imageUrls.length === 0) {
+    return (
+      <p className="text-center text-gray-400 mt-10">Belum ada dokumentasi yang ditampilkan saat ini.</p>
+    );
+  }
+
   return (
     <div className="columns-2 sm:columns-3 md:columns-4 mt-5 gap-4">
       {imageUrls.map((url, index) => {

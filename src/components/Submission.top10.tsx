@@ -6,6 +6,9 @@ import "../assets/css/style.css";
 import top10Data from "../data/top10uiux.json";
 
 export default function SubmissionTop10() {
+    if (!top10Data?.names || top10Data.names.length === 0) {
+        return null;
+    }
     return (
         <div className="mt-10 px-4 md:px-20">
             <div className="bg-gradient-to-br from-[#1f1f2e] via-[#2b2b40] to-[#1f1f2e] p-8 rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.4)] border border-white/10">

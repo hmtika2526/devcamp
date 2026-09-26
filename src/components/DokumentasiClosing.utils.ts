@@ -7,7 +7,7 @@ export const CDN_BACKUP = "https://cdn-2.hmtika.web.id";
 export const UNCOMPRESSED_PATH = "/images/devcamp/closing/jpg/";
 export const COMPRESSED_PATH = "/images/devcamp/closing/jpg-compressed/";
 
-export const dokumentasiClosingImage = dokuemntasiClosingData.map((item) => item.image);
+export const dokumentasiClosingImage = (dokuemntasiClosingData as any[]).map((item) => item.image);
 
 // Custom hook untuk CDN management
 export function useCDN() {

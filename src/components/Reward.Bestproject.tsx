@@ -6,9 +6,17 @@ import "../assets/css/style.css";
 import CapstoneReward from "../data/CapstoneReward.json";
 
 export default function RewardBestproject() {
-    const SeniorCapstoneReward = CapstoneReward.filter(item => item.status == "capstone" && item.level === "Senior");
-    const JuniorCapstoneReward = CapstoneReward.filter(item => item.status == "capstone" && item.level === "Junior");
-    const Distinction = CapstoneReward.filter(item => item.status == "distinction");
+    const rewards = CapstoneReward as any[];
+    if (!rewards || rewards.length === 0) {
+        return (
+            <div className="mt-[50px] px-4 md:px-20 text-center text-gray-400">
+                <p>Belum ada data reward peserta saat ini.</p>
+            </div>
+        );
+    }
+    const SeniorCapstoneReward = rewards.filter(item => item.status == "capstone" && item.level === "Senior");
+    const JuniorCapstoneReward = rewards.filter(item => item.status == "capstone" && item.level === "Junior");
+    const Distinction = rewards.filter(item => item.status == "distinction");
     return (
         <div className="mt-[50px] px-4 md:px-20">
             <div className="bg-gradient-to-br from-[#1f1f2e] via-[#2b2b40] to-[#1f1f2e] p-8 rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.4)] border border-[#ffffff]/10">

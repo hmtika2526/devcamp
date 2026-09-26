@@ -11,7 +11,7 @@ import SubmissionNotFound from './SubmissionDetailsNotFound';
 export default function SubmissionContent() {
     const { name } = useParams();
     const decodedName = decodeURIComponent(name as string);
-    const submission = submissionData.find((item) => item.name === decodedName) as SubmissionData | undefined;
+    const submission = (submissionData as any[]).find((item) => item.name === decodedName) as SubmissionData | undefined;
 
     if (!submission) {
         return <SubmissionNotFound />;

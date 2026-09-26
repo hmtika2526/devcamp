@@ -9,6 +9,7 @@ import ScrollFloat from '../utils/ScrollFloat';
 import ScrollReveal from '../utils/ScrollReveal';
 
 export default function Peserta() {
+    const data = KelompokData as any[];
     return (
         <div className="py-12 pt-[100px] container mx-auto" id="peserta">
             <ScrollFloat
@@ -22,7 +23,10 @@ export default function Peserta() {
             </ScrollFloat>
             
             <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 md:px-10">
-                {KelompokData.map((kelompok) => (
+                {!data || data.length === 0 ? (
+                    <p className="col-span-full text-center text-gray-400">Belum ada data peserta saat ini.</p>
+                ) : (
+                    data.map((kelompok) => (
                     <div key={kelompok.id} className="bg-[#1e1e2f] rounded-xl shadow-lg overflow-hidden">
                         <div className="p-4 space-y-2">
                             <h3 className="text-xl text-center font-bold text-blue-300">{kelompok.name}</h3>
@@ -39,7 +43,7 @@ export default function Peserta() {
                             <div className="mt-2">
                                 <p className="font-semibold text-[#ffffff]">Anggota:</p>
                                 <ol className="text-sm font-mono list-decimal ml-5 mt-2">
-                                    {kelompok.members.map((member, i) => (
+                                    {kelompok.members.map((member: any, i: number) => (
                                         <li key={i} className="mt-2 text-[#ffffff]">
                                             {member.name}
                                         </li>
@@ -48,7 +52,7 @@ export default function Peserta() {
                             </div>
                         </div>
                     </div>
-                ))}
+                )))}
             </div>
         </div>
     );

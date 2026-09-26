@@ -6,7 +6,10 @@ import "../assets/css/style.css";
 import capstoneSubmitData from "../data/capstoneSubmit.json";
 
 export default function SubmissionCapstone() {
-    const submission = capstoneSubmitData[0]; // Ambil data pertama
+    const submission = (capstoneSubmitData as any[])[0]; // Ambil data pertama
+    if (!submission || !submission.list_submision) {
+        return null;
+    }
     const totalSubmissions = submission.list_submision.length;
     const half = Math.ceil(totalSubmissions / 2);
 
@@ -36,7 +39,7 @@ export default function SubmissionCapstone() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-6">
                     {DisplaySubmission.map((group, groupIndex) => (
                         <div key={groupIndex} className="space-y-3">
-                            {group.map((item, index) => (
+                            {group.map((item: any, index: number) => (
                                 <li
                                     key={item.id_submission}
                                     className="flex flex-col gap-1 bg-[#ffffff]/5 hover:bg-[#ffffff]/10 transition rounded-xl px-4 py-3 list-none"
